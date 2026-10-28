@@ -1,0 +1,721 @@
+{
+  "@@locale": "en",
+  "appTitle": "PULSE",
+  "tabHome": "Home",
+  "tabTrain": "Train",
+  "tabActivity": "Activity",
+  "tabProgress": "Progress",
+  "tabProfile": "Profile",
+  "startWorkout": "Start workout",
+  "logWorkout": "Log workout",
+  "collapseSidebar": "Collapse sidebar",
+  "expandSidebar": "Expand sidebar",
+  "homeEmptyTitle": "Your day starts here",
+  "homeEmptyBody": "Activity rings, today's workout and your streak will appear here once you start moving.",
+  "trainEmptyTitle": "No workouts yet",
+  "trainEmptyBody": "Your templates, plans and workout history will live here.",
+  "activityEmptyTitle": "No activity recorded",
+  "activityEmptyBody": "Walks, runs and daily steps will show up here.",
+  "activityEmptyBodyDesktop": "Walks, runs and steps recorded on your phone will appear here after they sync.",
+  "progressEmptyTitle": "Nothing to chart yet",
+  "progressEmptyBody": "Log a few workouts and your trends, records and recaps will appear here.",
+  "appearance": "Appearance",
+  "themeDark": "Dark",
+  "themeLight": "Light",
+  "themeSystem": "System",
+  "developer": "Developer",
+  "componentGallery": "Component gallery",
+  "componentGallerySubtitle": "Every design-system component and animation",
+  "getStarted": "Get started",
+  "next": "Next",
+  "back": "Back",
+  "skip": "Skip",
+  "finish": "Finish",
+  "continueLabel": "Continue",
+  "stepOf": "Step {current} of {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "welcomeTitle": "Train smarter.\nMove more.",
+  "welcomeBody": "Workouts, steps, runs and recovery — all in one place.",
+  "goalTitle": "What's your main goal?",
+  "goalBuildMuscle": "Build muscle",
+  "goalBuildMuscleBody": "Get bigger and stronger",
+  "goalLoseFat": "Lose fat",
+  "goalLoseFatBody": "Burn more, keep your strength",
+  "goalEndurance": "Improve endurance",
+  "goalEnduranceBody": "Go longer and recover faster",
+  "goalGeneral": "General fitness",
+  "goalGeneralBody": "Feel good and stay consistent",
+  "experienceTitle": "How experienced are you?",
+  "expBeginner": "Beginner",
+  "expBeginnerBody": "New to training or coming back after a break",
+  "expIntermediate": "Intermediate",
+  "expIntermediateBody": "Training consistently for 6+ months",
+  "expAdvanced": "Advanced",
+  "expAdvancedBody": "Years of structured training",
+  "equipmentTitle": "What equipment can you use?",
+  "equipmentBody": "Pick everything available to you. We'll suggest exercises that fit.",
+  "scheduleTitle": "How many days a week can you train?",
+  "daysPerWeek": "{count, plural, =1{1 day} other{{count} days}}",
+  "@daysPerWeek": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bodyTitle": "About you",
+  "bodyBody": "All optional. Used for calorie estimates and heart-rate zones.",
+  "height": "Height",
+  "weight": "Weight",
+  "birthYear": "Year of birth",
+  "sex": "Sex",
+  "sexFemale": "Female",
+  "sexMale": "Male",
+  "sexOther": "Other",
+  "sexPreferNot": "Prefer not to say",
+  "units": "Units",
+  "unitKg": "kg",
+  "unitLb": "lb",
+  "unitKm": "km",
+  "unitMi": "mi",
+  "unitCm": "cm",
+  "unitIn": "in",
+  "invalidNumber": "Enter a number between {min} and {max}.",
+  "@invalidNumber": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "permissionsTitle": "Make PULSE yours",
+  "permissionsBody": "Allow only what you want. You can change these any time in Settings.",
+  "permHealthTitle": "Health data",
+  "permHealthBodyIos": "Read steps, heart rate and sleep from Apple Health so your rings and recovery score are accurate.",
+  "permHealthBodyAndroid": "Read steps, heart rate and sleep from Health Connect so your rings and recovery score are accurate.",
+  "permMotionTitle": "Motion & fitness",
+  "permMotionBody": "Count your steps all day and notice when you're walking or running.",
+  "permLocationTitle": "Location",
+  "permLocationBody": "Map your walks, runs and rides. Only used while you're tracking.",
+  "permNotificationsTitle": "Notifications",
+  "permNotificationsBody": "Workout reminders, rest timer alerts and streak protection.",
+  "allow": "Allow",
+  "allowed": "Allowed",
+  "notAllowed": "Not allowed",
+  "openSettings": "Open Settings",
+  "notAvailable": "Not available on this device",
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "greetingWithName": "{greeting}, {name}",
+  "@greetingWithName": {
+    "placeholders": {
+      "greeting": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ringsTitle": "Today's activity",
+  "ringMove": "Move",
+  "ringExercise": "Exercise",
+  "ringSteps": "Steps",
+  "ringsSemantics": "Move {move} percent, Exercise {exercise} percent, Steps {steps} percent",
+  "@ringsSemantics": {
+    "placeholders": {
+      "move": {
+        "type": "int"
+      },
+      "exercise": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      }
+    }
+  },
+  "kcalUnit": "kcal",
+  "minUnit": "min",
+  "stepsUnit": "steps",
+  "statSteps": "Steps",
+  "statDistance": "Distance",
+  "statFloors": "Floors",
+  "statActiveCalories": "Active calories",
+  "plannedTitle": "Today's workout",
+  "plannedNext": "Next up: {day}",
+  "@plannedNext": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "noPlanTitle": "No program yet",
+  "noPlanBody": "Pick a program and your next workout will show up here.",
+  "browsePrograms": "Browse programs",
+  "startNow": "Start",
+  "logNow": "Log",
+  "exercisesCount": "{count, plural, =1{1 exercise} other{{count} exercises}}",
+  "@exercisesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weeklyTitle": "This week",
+  "weeklySemantics": "Steps over the last 7 days: {summary}",
+  "@weeklySemantics": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutsCount": "{count, plural, =0{No workouts yet} =1{1 workout} other{{count} workouts}}",
+  "@workoutsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakTitle": "Streak",
+  "streakDays": "{count, plural, =0{Start a streak today} =1{1 day} other{{count} days}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakBody": "Train or go for a walk or run every day to keep it going.",
+  "recordsTitle": "Recent PRs",
+  "noRecords": "Your personal records will show up here.",
+  "newBadge": "NEW",
+  "customize": "Customize",
+  "doneEditing": "Done",
+  "showCard": "Show card",
+  "hideCard": "Hide card",
+  "muscleChest": "Chest",
+  "muscleBack": "Back",
+  "muscleLats": "Lats",
+  "muscleTraps": "Traps",
+  "muscleShoulders": "Shoulders",
+  "muscleBiceps": "Biceps",
+  "muscleTriceps": "Triceps",
+  "muscleForearms": "Forearms",
+  "muscleAbs": "Abs",
+  "muscleObliques": "Obliques",
+  "muscleLowerBack": "Lower back",
+  "muscleGlutes": "Glutes",
+  "muscleQuads": "Quads",
+  "muscleHamstrings": "Hamstrings",
+  "muscleAdductors": "Adductors",
+  "muscleCalves": "Calves",
+  "muscleFullBody": "Full body",
+  "equipBarbell": "Barbell",
+  "equipDumbbell": "Dumbbell",
+  "equipKettlebell": "Kettlebell",
+  "equipMachine": "Machine",
+  "equipCable": "Cable",
+  "equipSmithMachine": "Smith machine",
+  "equipEzBar": "EZ bar",
+  "equipTrapBar": "Trap bar",
+  "equipBand": "Bands",
+  "equipBodyweight": "Bodyweight",
+  "equipPullUpBar": "Pull-up bar",
+  "equipMedicineBall": "Medicine ball",
+  "equipCardioMachine": "Cardio machine",
+  "setWarmup": "Warm-up",
+  "setWorking": "Working",
+  "setDrop": "Drop set",
+  "setFailure": "Failure",
+  "setWarmupShort": "W",
+  "setDropShort": "D",
+  "setFailureShort": "F",
+  "trainStartEmpty": "Start empty workout",
+  "trainLogPast": "Log a past workout",
+  "activeProgram": "Active program",
+  "templates": "Templates",
+  "history": "History",
+  "exerciseLibrary": "Exercise library",
+  "noTemplates": "Finish a workout and save it as a template to reuse it here.",
+  "searchExercises": "Search exercises",
+  "favorites": "Favorites",
+  "allFilter": "All",
+  "noExercisesFound": "No exercises match",
+  "noExercisesFoundBody": "Try a different search or clear the filters.",
+  "clearFilters": "Clear filters",
+  "customExercise": "Custom exercise",
+  "createExercise": "Create exercise",
+  "exerciseName": "Name",
+  "primaryMuscle": "Primary muscle",
+  "equipment": "Equipment",
+  "difficulty": "Difficulty",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "howTo": "How to do it",
+  "commonMistakes": "Common mistakes",
+  "musclesWorked": "Muscles worked",
+  "yourHistory": "Your history",
+  "noHistoryForExercise": "Do this exercise in a workout to see your progress here.",
+  "addToFavorites": "Add to favorites",
+  "removeFromFavorites": "Remove from favorites",
+  "addExercises": "Add exercises",
+  "estimatedOneRm": "Est. 1RM",
+  "bestSet": "Best set",
+  "personalRecords": "Personal records",
+  "nameRequired": "Give it a name.",
+  "workoutDefaultName": "Workout",
+  "finishWorkout": "Finish",
+  "discardWorkout": "Discard workout",
+  "discardConfirmTitle": "Discard this workout?",
+  "discardConfirmBody": "All sets from this session will be deleted.",
+  "addSet": "Add set",
+  "addExercise": "Add exercise",
+  "removeExercise": "Remove exercise",
+  "supersetWithNext": "Superset with next",
+  "unlinkSuperset": "Remove from superset",
+  "superset": "Superset",
+  "notes": "Notes",
+  "sessionNotes": "Session notes",
+  "exerciseNotes": "Notes for this exercise",
+  "rest": "Rest",
+  "skipRest": "Skip",
+  "addRest15": "+15s",
+  "go": "GO",
+  "reps": "Reps",
+  "rpe": "RPE",
+  "setType": "Set type",
+  "completeSet": "Complete set",
+  "plateCalculator": "Plate calculator",
+  "plateTarget": "Target weight",
+  "plateBar": "Bar",
+  "platePerSide": "Per side",
+  "oneRepMax": "1RM calculator",
+  "epley": "Epley",
+  "brzycki": "Brzycki",
+  "keepAwake": "Keep screen on",
+  "emptyWorkoutTitle": "Add your first exercise",
+  "emptyWorkoutBody": "Tap “Add exercise” to pick from the library.",
+  "startedAt": "Started",
+  "duration": "Duration",
+  "date": "Date",
+  "logWorkoutTitle": "Log workout",
+  "summaryTitle": "Workout complete",
+  "totalVolume": "Total volume",
+  "setsDone": "Sets",
+  "calories": "Calories",
+  "newRecords": "New personal records",
+  "saveAsTemplate": "Save as template",
+  "templateSaved": "Template saved",
+  "done": "Done",
+  "prMaxWeight": "Heaviest weight",
+  "prEstimatedOneRm": "Best est. 1RM",
+  "prMaxReps": "Most reps",
+  "prMaxVolume": "Most volume",
+  "prUnlockedTitle": "New personal record!",
+  "share": "Share",
+  "close": "Close",
+  "programs": "Programs",
+  "setActive": "Make active",
+  "activeBadge": "Active",
+  "weight1rmHint": "Weight lifted",
+  "resumeWorkout": "Resume workout",
+  "moreActions": "More actions",
+  "workoutInProgress": "Workout in progress",
+  "noWorkoutsYetBody": "Your finished workouts will appear here.",
+  "restSeconds": "{seconds}s",
+  "@restSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lastTime": "Last time: {value}",
+  "@lastTime": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "setNumber": "Set {number}",
+  "@setNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "addCount": "{count, plural, =0{Add} other{Add {count}}}",
+  "@addCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weeksCount": "{count, plural, =1{1 week} other{{count} weeks}}",
+  "@weeksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plateRemainder": "Closest you can load: {weight}",
+  "@plateRemainder": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "restSemantics": "Rest, {seconds} seconds remaining",
+  "@restSemantics": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "setsCount": "{count, plural, =1{1 set} other{{count} sets}}",
+  "@setsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shareWorkoutText": "I just finished {name} on PULSE: {volume} lifted in {minutes} minutes.",
+  "@shareWorkoutText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "volume": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "cardioWalk": "Walk",
+  "cardioRun": "Run",
+  "cardioHike": "Hike",
+  "cardioCycle": "Ride",
+  "cardioTreadmill": "Treadmill",
+  "cardioOther": "Other",
+  "trackActivity": "Start tracking",
+  "indoor": "Indoor",
+  "outdoor": "Outdoor",
+  "logCardio": "Log activity",
+  "todaySteps": "Today's steps",
+  "pace": "Pace",
+  "elevation": "Elevation",
+  "time": "Time",
+  "distance": "Distance",
+  "pause": "Pause",
+  "resume": "Resume",
+  "autoPaused": "Auto-paused",
+  "paused": "Paused",
+  "replayRoute": "Replay route",
+  "splits": "Splits",
+  "noRoute": "No route recorded for this activity.",
+  "activityHistory": "History",
+  "locationNeededTitle": "Location is off",
+  "locationNeededBody": "Allow location access to map your route. Indoor mode works without it.",
+  "trackingNotificationTitle": "PULSE is tracking your activity",
+  "trackingNotificationBody": "Your route and pace are being recorded.",
+  "audioCues": "Audio cues",
+  "discardActivity": "Discard activity",
+  "stepsUnavailable": "Step counting isn't available. Allow Motion & fitness access in Settings.",
+  "caloriesOptional": "Calories (optional)",
+  "minutesLabel": "Minutes",
+  "activitySaved": "Activity saved",
+  "invalidDuration": "Enter a duration in minutes.",
+  "ttsSplit": "{distance} {unit}. Pace {minutes} minutes {seconds} seconds.",
+  "@ttsSplit": {
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "splitLabel": "{unit} {number}",
+  "@splitLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      },
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "bodyAndWeight": "Body & weight",
+  "water": "Water",
+  "nutrition": "Nutrition",
+  "progressPhotos": "Progress photos",
+  "health": "Health",
+  "syncHealth": "Sync health data",
+  "restingHr": "Resting HR",
+  "hrv": "HRV",
+  "sleep": "Sleep",
+  "latestHeartRate": "Latest heart rate",
+  "healthUnavailable": "Connect Apple Health or Health Connect in onboarding or Settings to see heart rate and sleep.",
+  "healthDesktop": "Heart rate and sleep recorded on your phone appear here after sync.",
+  "measureWeight": "Weight",
+  "measureBodyFat": "Body fat",
+  "measureWaist": "Waist",
+  "measureChest": "Chest",
+  "measureHips": "Hips",
+  "measureArm": "Arm",
+  "measureThigh": "Thigh",
+  "measureNeck": "Neck",
+  "addEntry": "Add entry",
+  "value": "Value",
+  "trend": "Trend",
+  "noEntries": "No entries yet",
+  "noEntriesBody": "Add your first measurement to start a trend.",
+  "addWater": "Add water",
+  "waterGoalReached": "Daily water goal reached!",
+  "custom": "Custom",
+  "mealBreakfast": "Breakfast",
+  "mealLunch": "Lunch",
+  "mealDinner": "Dinner",
+  "mealSnack": "Snack",
+  "addFood": "Add food",
+  "foodName": "Food",
+  "protein": "Protein",
+  "carbs": "Carbs",
+  "fat": "Fat",
+  "gramsUnit": "g",
+  "noMeals": "Nothing logged today",
+  "noMealsBody": "Log meals to track calories and macros against your targets.",
+  "addPhoto": "Add photo",
+  "takePhoto": "Take photo",
+  "chooseFromLibrary": "Choose from library",
+  "compare": "Compare",
+  "poseFront": "Front",
+  "poseSide": "Side",
+  "poseBack": "Back",
+  "selectTwoPhotos": "Select two photos to compare.",
+  "photosPrivate": "Photos are encrypted and stay on this device.",
+  "noPhotos": "No progress photos yet",
+  "noPhotosBody": "Take a photo every few weeks to see how far you've come.",
+  "vaultUnavailable": "Secure storage isn't available on this device, so photos can't be saved privately.",
+  "undo": "Undo",
+  "deleted": "Deleted",
+  "ofTarget": "{value} / {target}",
+  "@ofTarget": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepHours": "{hours} h {minutes} min",
+  "@sleepHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterProgress": "{amount} of {goal} ml",
+  "@waterProgress": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "analytics": "Analytics",
+  "recordsBoard": "Personal records",
+  "achievementsTitle": "Achievements",
+  "monthlyRecap": "Monthly recap",
+  "rangeWeek": "Week",
+  "rangeMonth": "Month",
+  "range3Months": "3 months",
+  "rangeYear": "Year",
+  "chartVolume": "Training volume",
+  "chartFrequency": "Workouts",
+  "chartSteps": "Steps",
+  "chartDistance": "Distance",
+  "chartWeight": "Weight",
+  "chartStrength": "Strength (est. 1RM)",
+  "noData": "Not enough data yet",
+  "noDataBody": "Keep training — your charts fill in as you log.",
+  "chooseExercise": "Exercise",
+  "level": "Level",
+  "xp": "XP",
+  "locked": "Locked",
+  "unlocked": "Unlocked",
+  "shareCard": "Share card",
+  "achievementUnlocked": "Achievement unlocked!",
+  "achFirstWorkout": "First workout",
+  "achFirstWorkoutBody": "Finish your first workout.",
+  "achWorkouts10": "Getting serious",
+  "achWorkouts10Body": "Finish 10 workouts.",
+  "achWorkouts50": "Dedicated",
+  "achWorkouts50Body": "Finish 50 workouts.",
+  "achWorkouts100": "Centurion",
+  "achWorkouts100Body": "Finish 100 workouts.",
+  "achStreak7": "On fire",
+  "achStreak7Body": "Keep a 7-day streak.",
+  "achStreak30": "Unstoppable",
+  "achStreak30Body": "Keep a 30-day streak.",
+  "achVolume10k": "Heavy lifter",
+  "achVolume10kBody": "Lift 10,000 kg in one workout.",
+  "achFirstPr": "Personal best",
+  "achFirstPrBody": "Set your first personal record.",
+  "achPrs25": "Record breaker",
+  "achPrs25Body": "Set 25 personal records.",
+  "achFirstCardio": "On the move",
+  "achFirstCardioBody": "Log your first walk, run or ride.",
+  "achDistance50": "Road warrior",
+  "achDistance50Body": "Cover 50 km of cardio in total.",
+  "achSteps10k": "10K day",
+  "achSteps10kBody": "Walk 10,000 steps in a day.",
+  "recapWorkouts": "Workouts",
+  "recapVolume": "Lifted",
+  "recapTime": "Time training",
+  "recapDistance": "Distance covered",
+  "recapSteps": "Steps",
+  "recapTopExercise": "Favourite exercise",
+  "recapRecords": "New records",
+  "recapEmpty": "No activity this month yet. Your recap builds as you train.",
+  "levelLabel": "Level {level}",
+  "@levelLabel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "xpToNext": "{xp} XP to level {level}",
+  "@xpToNext": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      },
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "recapTitle": "Your {month}",
+  "@recapTitle": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "recoveryTitle": "Recovery",
+  "recoveryScore": "Recovery score {score}",
+  "@recoveryScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "readyToTrain": "Ready to train",
+  "trainLight": "Train light today",
+  "restDay": "Take a rest day",
+  "recoveryUnknown": "Not enough data yet",
+  "tipSleepMore": "You slept under 7 hours. Keep today's session shorter or easier.",
+  "tipHrvLow": "Your HRV is below your usual level. Your body may still be recovering.",
+  "tipRestingHrHigh": "Your resting heart rate is up. Watch for stress, illness or too little sleep.",
+  "tipLoadSpike": "You trained much more this week than usual. Ease off to avoid injury.",
+  "tipDeload": "Five hard weeks in a row. Plan a lighter deload week to keep progressing.",
+  "tipConnectHealth": "Connect Apple Health or Health Connect to get a recovery score from your sleep and heart rate.",
+  "reminderWorkoutTitle": "Time to train",
+  "reminderWorkoutBody": "{name} is on today's plan.",
+  "@reminderWorkoutBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderStreakTitle": "Keep your streak alive",
+  "reminderStreakBody": "{count, plural, =1{1 day so far} other{{count} days so far}}. A short walk still counts.",
+  "@reminderStreakBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reminderInactiveTitle": "Ready when you are",
+  "reminderInactiveBody": "It's been a few days. Even a 20-minute session keeps the habit going.",
+  "goalReachedTitle": "Step goal reached!",
+  "goalReachedBody": "{goal} steps today. Nice work.",
+  "@goalReachedBody": {
+    "placeholders": {
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "setsProgress": "{done}/{total} sets",
+  "@setsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "widgetNoPlan": "No plan yet",
+  "widgetToday": "Today",
+  "widgetNext": "Next",
+  "waterLogTitle": "Log water",
+  "startWalk": "Start walk",
+  "remindersTitle": "Reminders",
+  "remindersBody": "Workout reminders, streak protection, step goal reached and a nudge after a few quiet days.",
+  "reminderTime": "Reminder time",
+  "remindersDenied": "Notifications are turned off for PULSE. Turn them on in system settings."
+}

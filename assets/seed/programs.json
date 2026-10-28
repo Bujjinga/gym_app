@@ -1,0 +1,778 @@
+{
+ "version": 1,
+ "programs": [
+  {
+   "slug": "push-pull-legs",
+   "name": "Push / Pull / Legs",
+   "weeks": 8,
+   "description": "Six days a week. Each muscle group is trained twice, split into pushing, pulling and leg days.",
+   "days": [
+    {
+     "name": "Push A",
+     "weekday": 1,
+     "exercises": [
+      {
+       "exercise": "barbell-bench-press",
+       "sets": 4,
+       "reps": 5,
+       "rest": 180,
+       "repsMax": 8
+      },
+      {
+       "exercise": "seated-dumbbell-shoulder-press",
+       "sets": 3,
+       "reps": 8,
+       "rest": 120,
+       "repsMax": 12
+      },
+      {
+       "exercise": "incline-dumbbell-press",
+       "sets": 3,
+       "reps": 8,
+       "rest": 120,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-lateral-raise",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "triceps-pushdown",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 15
+      }
+     ]
+    },
+    {
+     "name": "Pull A",
+     "weekday": 2,
+     "exercises": [
+      {
+       "exercise": "barbell-deadlift",
+       "sets": 3,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "pull-up",
+       "sets": 3,
+       "reps": 6,
+       "rest": 120,
+       "repsMax": 10
+      },
+      {
+       "exercise": "seated-cable-row",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "cable-face-pull",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "dumbbell-curl",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      }
+     ]
+    },
+    {
+     "name": "Legs A",
+     "weekday": 3,
+     "exercises": [
+      {
+       "exercise": "barbell-back-squat",
+       "sets": 4,
+       "reps": 5,
+       "rest": 180,
+       "repsMax": 8
+      },
+      {
+       "exercise": "barbell-romanian-deadlift",
+       "sets": 3,
+       "reps": 8,
+       "rest": 120,
+       "repsMax": 10
+      },
+      {
+       "exercise": "leg-press",
+       "sets": 3,
+       "reps": 10,
+       "rest": 120,
+       "repsMax": 12
+      },
+      {
+       "exercise": "lying-leg-curl",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      },
+      {
+       "exercise": "standing-calf-raise",
+       "sets": 4,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 15
+      }
+     ]
+    },
+    {
+     "name": "Push B",
+     "weekday": 4,
+     "exercises": [
+      {
+       "exercise": "barbell-overhead-press",
+       "sets": 4,
+       "reps": 5,
+       "rest": 180,
+       "repsMax": 8
+      },
+      {
+       "exercise": "incline-barbell-bench-press",
+       "sets": 3,
+       "reps": 8,
+       "rest": 120,
+       "repsMax": 10
+      },
+      {
+       "exercise": "chest-dip",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "cable-lateral-raise",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "dumbbell-overhead-triceps-extension",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      }
+     ]
+    },
+    {
+     "name": "Pull B",
+     "weekday": 5,
+     "exercises": [
+      {
+       "exercise": "barbell-bent-over-row",
+       "sets": 4,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "lat-pulldown",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "chest-supported-dumbbell-row",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "reverse-pec-deck",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "hammer-curl",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      }
+     ]
+    },
+    {
+     "name": "Legs B",
+     "weekday": 6,
+     "exercises": [
+      {
+       "exercise": "front-squat",
+       "sets": 3,
+       "reps": 6,
+       "rest": 180,
+       "repsMax": 8
+      },
+      {
+       "exercise": "barbell-hip-thrust",
+       "sets": 3,
+       "reps": 8,
+       "rest": 120,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-bulgarian-split-squat",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 10
+      },
+      {
+       "exercise": "leg-extension",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "seated-calf-raise",
+       "sets": 4,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "upper-lower",
+   "name": "Upper / Lower",
+   "weeks": 8,
+   "description": "Four days a week alternating upper-body and lower-body sessions. Great balance of strength and size.",
+   "days": [
+    {
+     "name": "Upper A",
+     "weekday": 1,
+     "exercises": [
+      {
+       "exercise": "barbell-bench-press",
+       "sets": 4,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "barbell-bent-over-row",
+       "sets": 4,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "seated-dumbbell-shoulder-press",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "lat-pulldown",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "ez-bar-curl",
+       "sets": 2,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      },
+      {
+       "exercise": "triceps-pushdown",
+       "sets": 2,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      }
+     ]
+    },
+    {
+     "name": "Lower A",
+     "weekday": 2,
+     "exercises": [
+      {
+       "exercise": "barbell-back-squat",
+       "sets": 4,
+       "reps": 6,
+       "rest": 180,
+       "repsMax": 8
+      },
+      {
+       "exercise": "barbell-romanian-deadlift",
+       "sets": 3,
+       "reps": 8,
+       "rest": 120,
+       "repsMax": 10
+      },
+      {
+       "exercise": "dumbbell-walking-lunge",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "lying-leg-curl",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      },
+      {
+       "exercise": "standing-calf-raise",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 15
+      }
+     ]
+    },
+    {
+     "name": "Upper B",
+     "weekday": 4,
+     "exercises": [
+      {
+       "exercise": "barbell-overhead-press",
+       "sets": 4,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "pull-up",
+       "sets": 4,
+       "reps": 6,
+       "rest": 120,
+       "repsMax": 10
+      },
+      {
+       "exercise": "incline-dumbbell-press",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "seated-cable-row",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-lateral-raise",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "cable-face-pull",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      }
+     ]
+    },
+    {
+     "name": "Lower B",
+     "weekday": 5,
+     "exercises": [
+      {
+       "exercise": "barbell-deadlift",
+       "sets": 3,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "leg-press",
+       "sets": 3,
+       "reps": 10,
+       "rest": 120,
+       "repsMax": 12
+      },
+      {
+       "exercise": "barbell-hip-thrust",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "leg-extension",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "hanging-knee-raise",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "full-body",
+   "name": "Full Body",
+   "weeks": 8,
+   "description": "Three full-body sessions a week. Efficient, flexible and ideal if you can only train a few days.",
+   "days": [
+    {
+     "name": "Full Body A",
+     "weekday": 1,
+     "exercises": [
+      {
+       "exercise": "barbell-back-squat",
+       "sets": 3,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "barbell-bench-press",
+       "sets": 3,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "one-arm-dumbbell-row",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-lateral-raise",
+       "sets": 2,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "plank",
+       "sets": 3,
+       "reps": 45,
+       "rest": 60
+      }
+     ]
+    },
+    {
+     "name": "Full Body B",
+     "weekday": 3,
+     "exercises": [
+      {
+       "exercise": "barbell-deadlift",
+       "sets": 3,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-overhead-press",
+       "sets": 3,
+       "reps": 6,
+       "rest": 120,
+       "repsMax": 8
+      },
+      {
+       "exercise": "lat-pulldown",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-reverse-lunge",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90
+      },
+      {
+       "exercise": "dumbbell-curl",
+       "sets": 2,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      }
+     ]
+    },
+    {
+     "name": "Full Body C",
+     "weekday": 5,
+     "exercises": [
+      {
+       "exercise": "front-squat",
+       "sets": 3,
+       "reps": 6,
+       "rest": 150,
+       "repsMax": 8
+      },
+      {
+       "exercise": "incline-dumbbell-press",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "seated-cable-row",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "barbell-hip-thrust",
+       "sets": 3,
+       "reps": 8,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "triceps-pushdown",
+       "sets": 2,
+       "reps": 10,
+       "rest": 60,
+       "repsMax": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "five-by-five",
+   "name": "5×5 Strength",
+   "weeks": 12,
+   "description": "Classic linear strength program: two alternating workouts of heavy compound lifts, five sets of five.",
+   "days": [
+    {
+     "name": "Workout A",
+     "weekday": 1,
+     "exercises": [
+      {
+       "exercise": "barbell-back-squat",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-bench-press",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-bent-over-row",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      }
+     ]
+    },
+    {
+     "name": "Workout B",
+     "weekday": 3,
+     "exercises": [
+      {
+       "exercise": "barbell-back-squat",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-overhead-press",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-deadlift",
+       "sets": 1,
+       "reps": 5,
+       "rest": 240
+      }
+     ]
+    },
+    {
+     "name": "Workout A (repeat)",
+     "weekday": 5,
+     "exercises": [
+      {
+       "exercise": "barbell-back-squat",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-bench-press",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      },
+      {
+       "exercise": "barbell-bent-over-row",
+       "sets": 5,
+       "reps": 5,
+       "rest": 180
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "beginner-3-day",
+   "name": "Beginner 3-Day",
+   "weeks": 6,
+   "description": "A gentle start with machines, dumbbells and bodyweight moves. Learn the patterns and build the habit.",
+   "days": [
+    {
+     "name": "Day 1",
+     "weekday": 1,
+     "exercises": [
+      {
+       "exercise": "dumbbell-goblet-squat",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "machine-chest-press",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "lat-pulldown",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "glute-bridge",
+       "sets": 3,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "plank",
+       "sets": 3,
+       "reps": 30,
+       "rest": 60
+      }
+     ]
+    },
+    {
+     "name": "Day 2",
+     "weekday": 3,
+     "exercises": [
+      {
+       "exercise": "leg-press",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "seated-dumbbell-shoulder-press",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "seated-cable-row",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-reverse-lunge",
+       "sets": 2,
+       "reps": 10,
+       "rest": 60
+      },
+      {
+       "exercise": "dead-bug",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60
+      }
+     ]
+    },
+    {
+     "name": "Day 3",
+     "weekday": 5,
+     "exercises": [
+      {
+       "exercise": "dumbbell-romanian-deadlift",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "incline-push-up",
+       "sets": 3,
+       "reps": 8,
+       "rest": 60,
+       "repsMax": 12
+      },
+      {
+       "exercise": "machine-row",
+       "sets": 3,
+       "reps": 10,
+       "rest": 90,
+       "repsMax": 12
+      },
+      {
+       "exercise": "dumbbell-lateral-raise",
+       "sets": 2,
+       "reps": 12,
+       "rest": 60,
+       "repsMax": 15
+      },
+      {
+       "exercise": "bird-dog",
+       "sets": 3,
+       "reps": 10,
+       "rest": 60
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

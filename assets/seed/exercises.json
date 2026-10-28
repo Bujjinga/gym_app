@@ -1,0 +1,4929 @@
+{
+ "version": 1,
+ "exercises": [
+  {
+   "slug": "barbell-bench-press",
+   "name": "Barbell Bench Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the bench with eyes under the bar/handles and feet planted.",
+    "Squeeze shoulder blades together and keep a slight arch in the upper back.",
+    "Lower the weight under control to mid-chest, elbows about 45° from the torso.",
+    "Press up and slightly back until the arms are straight, without losing the shoulder position."
+   ],
+   "mistakes": [
+    "Flaring the elbows out to 90°, which stresses the shoulders.",
+    "Bouncing the weight off the chest.",
+    "Lifting the hips off the bench."
+   ]
+  },
+  {
+   "slug": "dumbbell-bench-press",
+   "name": "Dumbbell Bench Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the bench with eyes under the bar/handles and feet planted.",
+    "Squeeze shoulder blades together and keep a slight arch in the upper back.",
+    "Lower the weight under control to mid-chest, elbows about 45° from the torso.",
+    "Press up and slightly back until the arms are straight, without losing the shoulder position."
+   ],
+   "mistakes": [
+    "Flaring the elbows out to 90°, which stresses the shoulders.",
+    "Bouncing the weight off the chest.",
+    "Lifting the hips off the bench."
+   ]
+  },
+  {
+   "slug": "smith-machine-bench-press",
+   "name": "Smith Machine Bench Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the bench with eyes under the bar/handles and feet planted.",
+    "Squeeze shoulder blades together and keep a slight arch in the upper back.",
+    "Lower the weight under control to mid-chest, elbows about 45° from the torso.",
+    "Press up and slightly back until the arms are straight, without losing the shoulder position."
+   ],
+   "mistakes": [
+    "Flaring the elbows out to 90°, which stresses the shoulders.",
+    "Bouncing the weight off the chest.",
+    "Lifting the hips off the bench."
+   ]
+  },
+  {
+   "slug": "machine-chest-press",
+   "name": "Machine Chest Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the bench with eyes under the bar/handles and feet planted.",
+    "Squeeze shoulder blades together and keep a slight arch in the upper back.",
+    "Lower the weight under control to mid-chest, elbows about 45° from the torso.",
+    "Press up and slightly back until the arms are straight, without losing the shoulder position."
+   ],
+   "mistakes": [
+    "Flaring the elbows out to 90°, which stresses the shoulders.",
+    "Bouncing the weight off the chest.",
+    "Lifting the hips off the bench."
+   ]
+  },
+  {
+   "slug": "incline-barbell-bench-press",
+   "name": "Incline Barbell Bench Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Set the bench to 30–45° and plant your feet.",
+    "Retract the shoulder blades and brace your core.",
+    "Lower the weight to the upper chest with elbows slightly tucked.",
+    "Press up over the shoulders until the arms are straight."
+   ],
+   "mistakes": [
+    "Using too steep a bench angle so it becomes a shoulder press.",
+    "Letting the shoulders roll forward at the top."
+   ]
+  },
+  {
+   "slug": "incline-dumbbell-press",
+   "name": "Incline Dumbbell Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Set the bench to 30–45° and plant your feet.",
+    "Retract the shoulder blades and brace your core.",
+    "Lower the weight to the upper chest with elbows slightly tucked.",
+    "Press up over the shoulders until the arms are straight."
+   ],
+   "mistakes": [
+    "Using too steep a bench angle so it becomes a shoulder press.",
+    "Letting the shoulders roll forward at the top."
+   ]
+  },
+  {
+   "slug": "incline-smith-machine-press",
+   "name": "Incline Smith Machine Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Set the bench to 30–45° and plant your feet.",
+    "Retract the shoulder blades and brace your core.",
+    "Lower the weight to the upper chest with elbows slightly tucked.",
+    "Press up over the shoulders until the arms are straight."
+   ],
+   "mistakes": [
+    "Using too steep a bench angle so it becomes a shoulder press.",
+    "Letting the shoulders roll forward at the top."
+   ]
+  },
+  {
+   "slug": "incline-machine-press",
+   "name": "Incline Machine Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Set the bench to 30–45° and plant your feet.",
+    "Retract the shoulder blades and brace your core.",
+    "Lower the weight to the upper chest with elbows slightly tucked.",
+    "Press up over the shoulders until the arms are straight."
+   ],
+   "mistakes": [
+    "Using too steep a bench angle so it becomes a shoulder press.",
+    "Letting the shoulders roll forward at the top."
+   ]
+  },
+  {
+   "slug": "decline-barbell-bench-press",
+   "name": "Decline Barbell Bench Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Secure your legs on a decline bench.",
+    "Unrack with straight arms over the lower chest.",
+    "Lower to the lower chest under control.",
+    "Press back up, keeping the shoulder blades pinned."
+   ],
+   "mistakes": [
+    "Letting the weight drift toward the neck.",
+    "Dropping the weight too fast."
+   ]
+  },
+  {
+   "slug": "decline-dumbbell-press",
+   "name": "Decline Dumbbell Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Secure your legs on a decline bench.",
+    "Unrack with straight arms over the lower chest.",
+    "Lower to the lower chest under control.",
+    "Press back up, keeping the shoulder blades pinned."
+   ],
+   "mistakes": [
+    "Letting the weight drift toward the neck.",
+    "Dropping the weight too fast."
+   ]
+  },
+  {
+   "slug": "dumbbell-fly",
+   "name": "Dumbbell Fly",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Start with arms extended in front of the chest and a soft bend in the elbows.",
+    "Open the arms in a wide arc until you feel a stretch across the chest.",
+    "Keep the elbow angle fixed throughout.",
+    "Squeeze the chest to bring the hands back together."
+   ],
+   "mistakes": [
+    "Bending and straightening the elbows, turning it into a press.",
+    "Going too heavy and overstretching the shoulders."
+   ]
+  },
+  {
+   "slug": "incline-dumbbell-fly",
+   "name": "Incline Dumbbell Fly",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Start with arms extended in front of the chest and a soft bend in the elbows.",
+    "Open the arms in a wide arc until you feel a stretch across the chest.",
+    "Keep the elbow angle fixed throughout.",
+    "Squeeze the chest to bring the hands back together."
+   ],
+   "mistakes": [
+    "Bending and straightening the elbows, turning it into a press.",
+    "Going too heavy and overstretching the shoulders."
+   ]
+  },
+  {
+   "slug": "cable-fly",
+   "name": "Cable Fly",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Start with arms extended in front of the chest and a soft bend in the elbows.",
+    "Open the arms in a wide arc until you feel a stretch across the chest.",
+    "Keep the elbow angle fixed throughout.",
+    "Squeeze the chest to bring the hands back together."
+   ],
+   "mistakes": [
+    "Bending and straightening the elbows, turning it into a press.",
+    "Going too heavy and overstretching the shoulders."
+   ]
+  },
+  {
+   "slug": "pec-deck-fly",
+   "name": "Pec Deck Fly",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Start with arms extended in front of the chest and a soft bend in the elbows.",
+    "Open the arms in a wide arc until you feel a stretch across the chest.",
+    "Keep the elbow angle fixed throughout.",
+    "Squeeze the chest to bring the hands back together."
+   ],
+   "mistakes": [
+    "Bending and straightening the elbows, turning it into a press.",
+    "Going too heavy and overstretching the shoulders."
+   ]
+  },
+  {
+   "slug": "band-chest-fly",
+   "name": "Band Chest Fly",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Start with arms extended in front of the chest and a soft bend in the elbows.",
+    "Open the arms in a wide arc until you feel a stretch across the chest.",
+    "Keep the elbow angle fixed throughout.",
+    "Squeeze the chest to bring the hands back together."
+   ],
+   "mistakes": [
+    "Bending and straightening the elbows, turning it into a press.",
+    "Going too heavy and overstretching the shoulders."
+   ]
+  },
+  {
+   "slug": "push-up",
+   "name": "Push-Up",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders",
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Place hands slightly wider than shoulders, body in a straight line from head to heels.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until the chest is just above the floor, elbows about 45° from the body.",
+    "Push the floor away to return to the top."
+   ],
+   "mistakes": [
+    "Letting the hips sag or pike up.",
+    "Only doing half reps.",
+    "Flaring the elbows straight out."
+   ]
+  },
+  {
+   "slug": "incline-push-up",
+   "name": "Incline Push-Up",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders",
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Place hands slightly wider than shoulders, body in a straight line from head to heels.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until the chest is just above the floor, elbows about 45° from the body.",
+    "Push the floor away to return to the top."
+   ],
+   "mistakes": [
+    "Letting the hips sag or pike up.",
+    "Only doing half reps.",
+    "Flaring the elbows straight out."
+   ]
+  },
+  {
+   "slug": "decline-push-up",
+   "name": "Decline Push-Up",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders",
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Place hands slightly wider than shoulders, body in a straight line from head to heels.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until the chest is just above the floor, elbows about 45° from the body.",
+    "Push the floor away to return to the top."
+   ],
+   "mistakes": [
+    "Letting the hips sag or pike up.",
+    "Only doing half reps.",
+    "Flaring the elbows straight out."
+   ]
+  },
+  {
+   "slug": "diamond-push-up",
+   "name": "Diamond Push-Up",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Place hands slightly wider than shoulders, body in a straight line from head to heels.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until the chest is just above the floor, elbows about 45° from the body.",
+    "Push the floor away to return to the top."
+   ],
+   "mistakes": [
+    "Letting the hips sag or pike up.",
+    "Only doing half reps.",
+    "Flaring the elbows straight out."
+   ]
+  },
+  {
+   "slug": "archer-push-up",
+   "name": "Archer Push-Up",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders",
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Place hands slightly wider than shoulders, body in a straight line from head to heels.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until the chest is just above the floor, elbows about 45° from the body.",
+    "Push the floor away to return to the top."
+   ],
+   "mistakes": [
+    "Letting the hips sag or pike up.",
+    "Only doing half reps.",
+    "Flaring the elbows straight out."
+   ]
+  },
+  {
+   "slug": "clap-push-up",
+   "name": "Clap Push-Up",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders",
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Place hands slightly wider than shoulders, body in a straight line from head to heels.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until the chest is just above the floor, elbows about 45° from the body.",
+    "Push the floor away to return to the top."
+   ],
+   "mistakes": [
+    "Letting the hips sag or pike up.",
+    "Only doing half reps.",
+    "Flaring the elbows straight out."
+   ]
+  },
+  {
+   "slug": "chest-dip",
+   "name": "Chest Dip",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Support yourself on parallel bars with arms straight.",
+    "Lean the torso forward slightly to bias the chest.",
+    "Lower until the shoulders are just below the elbows.",
+    "Press back up to straight arms."
+   ],
+   "mistakes": [
+    "Dropping too deep and straining the shoulders.",
+    "Swinging the legs for momentum."
+   ]
+  },
+  {
+   "slug": "assisted-dip",
+   "name": "Assisted Dip",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Support yourself on parallel bars with arms straight.",
+    "Lean the torso forward slightly to bias the chest.",
+    "Lower until the shoulders are just below the elbows.",
+    "Press back up to straight arms."
+   ],
+   "mistakes": [
+    "Dropping too deep and straining the shoulders.",
+    "Swinging the legs for momentum."
+   ]
+  },
+  {
+   "slug": "barbell-floor-press",
+   "name": "Barbell Floor Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the floor with knees bent and the weight over your chest.",
+    "Lower until the upper arms touch the floor.",
+    "Pause briefly, then press back up."
+   ],
+   "mistakes": [
+    "Bouncing the elbows off the floor.",
+    "Losing upper-back tightness."
+   ]
+  },
+  {
+   "slug": "dumbbell-floor-press",
+   "name": "Dumbbell Floor Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the floor with knees bent and the weight over your chest.",
+    "Lower until the upper arms touch the floor.",
+    "Pause briefly, then press back up."
+   ],
+   "mistakes": [
+    "Bouncing the elbows off the floor.",
+    "Losing upper-back tightness."
+   ]
+  },
+  {
+   "slug": "kettlebell-floor-press",
+   "name": "Kettlebell Floor Press",
+   "primaryMuscle": "chest",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the floor with knees bent and the weight over your chest.",
+    "Lower until the upper arms touch the floor.",
+    "Pause briefly, then press back up."
+   ],
+   "mistakes": [
+    "Bouncing the elbows off the floor.",
+    "Losing upper-back tightness."
+   ]
+  },
+  {
+   "slug": "barbell-bent-over-row",
+   "name": "Barbell Bent-Over Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "pendlay-row",
+   "name": "Pendlay Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "one-arm-dumbbell-row",
+   "name": "One-Arm Dumbbell Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "seated-cable-row",
+   "name": "Seated Cable Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "machine-row",
+   "name": "Machine Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "t-bar-row",
+   "name": "T-Bar Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "chest-supported-dumbbell-row",
+   "name": "Chest-Supported Dumbbell Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "inverted-row",
+   "name": "Inverted Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "band-row",
+   "name": "Band Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "kettlebell-row",
+   "name": "Kettlebell Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "smith-machine-row",
+   "name": "Smith Machine Row",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "lats",
+    "biceps",
+    "traps"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Brace your core and keep a neutral spine.",
+    "Pull the weight toward your lower ribs, leading with the elbows.",
+    "Squeeze the shoulder blades together at the top.",
+    "Lower under control until the arms are straight."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Jerking the torso to move the weight.",
+    "Shrugging the shoulders up to the ears."
+   ]
+  },
+  {
+   "slug": "pull-up",
+   "name": "Pull-Up",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "pullUpBar",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hang from the bar with hands just outside shoulder width.",
+    "Pull the shoulder blades down, then drive the elbows toward your ribs.",
+    "Pull until the chin clears the bar.",
+    "Lower all the way to a full hang under control."
+   ],
+   "mistakes": [
+    "Kipping or swinging for momentum.",
+    "Stopping short of a full hang.",
+    "Craning the neck to get the chin over."
+   ]
+  },
+  {
+   "slug": "chin-up",
+   "name": "Chin-Up",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "pullUpBar",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hang from the bar with hands just outside shoulder width.",
+    "Pull the shoulder blades down, then drive the elbows toward your ribs.",
+    "Pull until the chin clears the bar.",
+    "Lower all the way to a full hang under control."
+   ],
+   "mistakes": [
+    "Kipping or swinging for momentum.",
+    "Stopping short of a full hang.",
+    "Craning the neck to get the chin over."
+   ]
+  },
+  {
+   "slug": "neutral-grip-pull-up",
+   "name": "Neutral-Grip Pull-Up",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "pullUpBar",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hang from the bar with hands just outside shoulder width.",
+    "Pull the shoulder blades down, then drive the elbows toward your ribs.",
+    "Pull until the chin clears the bar.",
+    "Lower all the way to a full hang under control."
+   ],
+   "mistakes": [
+    "Kipping or swinging for momentum.",
+    "Stopping short of a full hang.",
+    "Craning the neck to get the chin over."
+   ]
+  },
+  {
+   "slug": "assisted-pull-up",
+   "name": "Assisted Pull-Up",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hang from the bar with hands just outside shoulder width.",
+    "Pull the shoulder blades down, then drive the elbows toward your ribs.",
+    "Pull until the chin clears the bar.",
+    "Lower all the way to a full hang under control."
+   ],
+   "mistakes": [
+    "Kipping or swinging for momentum.",
+    "Stopping short of a full hang.",
+    "Craning the neck to get the chin over."
+   ]
+  },
+  {
+   "slug": "band-assisted-pull-up",
+   "name": "Band-Assisted Pull-Up",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hang from the bar with hands just outside shoulder width.",
+    "Pull the shoulder blades down, then drive the elbows toward your ribs.",
+    "Pull until the chin clears the bar.",
+    "Lower all the way to a full hang under control."
+   ],
+   "mistakes": [
+    "Kipping or swinging for momentum.",
+    "Stopping short of a full hang.",
+    "Craning the neck to get the chin over."
+   ]
+  },
+  {
+   "slug": "weighted-pull-up",
+   "name": "Weighted Pull-Up",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "pullUpBar",
+   "difficulty": "advanced",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hang from the bar with hands just outside shoulder width.",
+    "Pull the shoulder blades down, then drive the elbows toward your ribs.",
+    "Pull until the chin clears the bar.",
+    "Lower all the way to a full hang under control."
+   ],
+   "mistakes": [
+    "Kipping or swinging for momentum.",
+    "Stopping short of a full hang.",
+    "Craning the neck to get the chin over."
+   ]
+  },
+  {
+   "slug": "lat-pulldown",
+   "name": "Lat Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Sit with thighs locked under the pad and grab the bar.",
+    "Lean back slightly and pull the bar to the upper chest.",
+    "Drive the elbows down and back, squeezing the lats.",
+    "Let the bar rise slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling the bar behind the neck.",
+    "Leaning far back and turning it into a row."
+   ]
+  },
+  {
+   "slug": "close-grip-lat-pulldown",
+   "name": "Close-Grip Lat Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Sit with thighs locked under the pad and grab the bar.",
+    "Lean back slightly and pull the bar to the upper chest.",
+    "Drive the elbows down and back, squeezing the lats.",
+    "Let the bar rise slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling the bar behind the neck.",
+    "Leaning far back and turning it into a row."
+   ]
+  },
+  {
+   "slug": "single-arm-cable-pulldown",
+   "name": "Single-Arm Cable Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "cable",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Sit with thighs locked under the pad and grab the bar.",
+    "Lean back slightly and pull the bar to the upper chest.",
+    "Drive the elbows down and back, squeezing the lats.",
+    "Let the bar rise slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling the bar behind the neck.",
+    "Leaning far back and turning it into a row."
+   ]
+  },
+  {
+   "slug": "machine-pulldown",
+   "name": "Machine Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Sit with thighs locked under the pad and grab the bar.",
+    "Lean back slightly and pull the bar to the upper chest.",
+    "Drive the elbows down and back, squeezing the lats.",
+    "Let the bar rise slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling the bar behind the neck.",
+    "Leaning far back and turning it into a row."
+   ]
+  },
+  {
+   "slug": "band-pulldown",
+   "name": "Band Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "biceps",
+    "back"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Sit with thighs locked under the pad and grab the bar.",
+    "Lean back slightly and pull the bar to the upper chest.",
+    "Drive the elbows down and back, squeezing the lats.",
+    "Let the bar rise slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling the bar behind the neck.",
+    "Leaning far back and turning it into a row."
+   ]
+  },
+  {
+   "slug": "straight-arm-cable-pulldown",
+   "name": "Straight-Arm Cable Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand facing the anchor with arms straight overhead holding the handle.",
+    "Hinge slightly forward and keep the arms straight.",
+    "Sweep the hands down to the thighs using your lats.",
+    "Return slowly to the stretched position."
+   ],
+   "mistakes": [
+    "Bending the elbows so the triceps take over.",
+    "Using the torso to swing the weight."
+   ]
+  },
+  {
+   "slug": "band-straight-arm-pulldown",
+   "name": "Band Straight-Arm Pulldown",
+   "primaryMuscle": "lats",
+   "secondaryMuscles": [
+    "triceps"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand facing the anchor with arms straight overhead holding the handle.",
+    "Hinge slightly forward and keep the arms straight.",
+    "Sweep the hands down to the thighs using your lats.",
+    "Return slowly to the stretched position."
+   ],
+   "mistakes": [
+    "Bending the elbows so the triceps take over.",
+    "Using the torso to swing the weight."
+   ]
+  },
+  {
+   "slug": "cable-face-pull",
+   "name": "Cable Face Pull",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "back"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Set the anchor at face height and hold the rope with thumbs back.",
+    "Pull the rope toward your forehead, splitting the ends apart.",
+    "Finish with elbows high and hands beside the ears.",
+    "Return slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling with the elbows dropped low.",
+    "Going so heavy you lean back."
+   ]
+  },
+  {
+   "slug": "band-face-pull",
+   "name": "Band Face Pull",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "back"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPull",
+   "instructions": [
+    "Set the anchor at face height and hold the rope with thumbs back.",
+    "Pull the rope toward your forehead, splitting the ends apart.",
+    "Finish with elbows high and hands beside the ears.",
+    "Return slowly until the arms are straight."
+   ],
+   "mistakes": [
+    "Pulling with the elbows dropped low.",
+    "Going so heavy you lean back."
+   ]
+  },
+  {
+   "slug": "barbell-shrug",
+   "name": "Barbell Shrug",
+   "primaryMuscle": "traps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "barbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall holding the weight at your sides or in front of the thighs.",
+    "Lift the shoulders straight up toward the ears.",
+    "Pause and squeeze at the top.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Rolling the shoulders in circles.",
+    "Bending the elbows to help."
+   ]
+  },
+  {
+   "slug": "dumbbell-shrug",
+   "name": "Dumbbell Shrug",
+   "primaryMuscle": "traps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall holding the weight at your sides or in front of the thighs.",
+    "Lift the shoulders straight up toward the ears.",
+    "Pause and squeeze at the top.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Rolling the shoulders in circles.",
+    "Bending the elbows to help."
+   ]
+  },
+  {
+   "slug": "trap-bar-shrug",
+   "name": "Trap Bar Shrug",
+   "primaryMuscle": "traps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "trapBar",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall holding the weight at your sides or in front of the thighs.",
+    "Lift the shoulders straight up toward the ears.",
+    "Pause and squeeze at the top.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Rolling the shoulders in circles.",
+    "Bending the elbows to help."
+   ]
+  },
+  {
+   "slug": "smith-machine-shrug",
+   "name": "Smith Machine Shrug",
+   "primaryMuscle": "traps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall holding the weight at your sides or in front of the thighs.",
+    "Lift the shoulders straight up toward the ears.",
+    "Pause and squeeze at the top.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Rolling the shoulders in circles.",
+    "Bending the elbows to help."
+   ]
+  },
+  {
+   "slug": "45-back-extension",
+   "name": "45° Back Extension",
+   "primaryMuscle": "lowerBack",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Set the pad just below the hip bones.",
+    "Lower the torso by hinging at the hips with a neutral spine.",
+    "Raise the torso until it is in line with the legs.",
+    "Avoid arching past neutral at the top."
+   ],
+   "mistakes": [
+    "Hyperextending the lower back at the top.",
+    "Moving too fast and swinging."
+   ]
+  },
+  {
+   "slug": "superman",
+   "name": "Superman",
+   "primaryMuscle": "lowerBack",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Lie face down with arms extended overhead.",
+    "Lift the arms, chest and legs a few centimetres off the floor.",
+    "Hold for one to two seconds, squeezing the glutes and back.",
+    "Lower with control."
+   ],
+   "mistakes": [
+    "Hyperextending the lower back at the top.",
+    "Moving too fast and swinging."
+   ]
+  },
+  {
+   "slug": "barbell-overhead-press",
+   "name": "Barbell Overhead Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "seated-dumbbell-shoulder-press",
+   "name": "Seated Dumbbell Shoulder Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "arnold-press",
+   "name": "Arnold Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "machine-shoulder-press",
+   "name": "Machine Shoulder Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "smith-machine-shoulder-press",
+   "name": "Smith Machine Shoulder Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "kettlebell-overhead-press",
+   "name": "Kettlebell Overhead Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "push-press",
+   "name": "Push Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "quads",
+    "glutes"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "landmine-press",
+   "name": "Landmine Press",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Start with the weight at shoulder height and your core braced.",
+    "Press straight up, moving the head slightly back so the path stays vertical.",
+    "Lock out overhead with biceps near the ears.",
+    "Lower under control back to the shoulders."
+   ],
+   "mistakes": [
+    "Arching the lower back excessively.",
+    "Pressing the weight forward instead of overhead."
+   ]
+  },
+  {
+   "slug": "dumbbell-lateral-raise",
+   "name": "Dumbbell Lateral Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at your sides and a soft bend in the elbows.",
+    "Raise the arms out to the sides, leading with the elbows.",
+    "Stop at shoulder height with the hands no higher than the elbows.",
+    "Lower slowly over two to three seconds."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Shrugging the traps up during the raise."
+   ]
+  },
+  {
+   "slug": "cable-lateral-raise",
+   "name": "Cable Lateral Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at your sides and a soft bend in the elbows.",
+    "Raise the arms out to the sides, leading with the elbows.",
+    "Stop at shoulder height with the hands no higher than the elbows.",
+    "Lower slowly over two to three seconds."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Shrugging the traps up during the raise."
+   ]
+  },
+  {
+   "slug": "machine-lateral-raise",
+   "name": "Machine Lateral Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at your sides and a soft bend in the elbows.",
+    "Raise the arms out to the sides, leading with the elbows.",
+    "Stop at shoulder height with the hands no higher than the elbows.",
+    "Lower slowly over two to three seconds."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Shrugging the traps up during the raise."
+   ]
+  },
+  {
+   "slug": "band-lateral-raise",
+   "name": "Band Lateral Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at your sides and a soft bend in the elbows.",
+    "Raise the arms out to the sides, leading with the elbows.",
+    "Stop at shoulder height with the hands no higher than the elbows.",
+    "Lower slowly over two to three seconds."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Shrugging the traps up during the raise."
+   ]
+  },
+  {
+   "slug": "dumbbell-front-raise",
+   "name": "Dumbbell Front Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "chest"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the weight in front of the thighs with straight arms.",
+    "Raise the arms forward to shoulder height.",
+    "Pause briefly, then lower with control."
+   ],
+   "mistakes": [
+    "Leaning back to swing the weight up.",
+    "Raising far above shoulder height."
+   ]
+  },
+  {
+   "slug": "cable-front-raise",
+   "name": "Cable Front Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "chest"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the weight in front of the thighs with straight arms.",
+    "Raise the arms forward to shoulder height.",
+    "Pause briefly, then lower with control."
+   ],
+   "mistakes": [
+    "Leaning back to swing the weight up.",
+    "Raising far above shoulder height."
+   ]
+  },
+  {
+   "slug": "barbell-front-raise",
+   "name": "Barbell Front Raise",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "chest"
+   ],
+   "equipment": "barbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the weight in front of the thighs with straight arms.",
+    "Raise the arms forward to shoulder height.",
+    "Pause briefly, then lower with control."
+   ],
+   "mistakes": [
+    "Leaning back to swing the weight up.",
+    "Raising far above shoulder height."
+   ]
+  },
+  {
+   "slug": "bent-over-rear-delt-fly",
+   "name": "Bent-Over Rear Delt Fly",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "back"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hinge forward or face the machine with arms extended.",
+    "Raise the arms out wide, leading with the back of the hands.",
+    "Squeeze the rear delts without shrugging.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Squeezing the shoulder blades so the traps do the work.",
+    "Using momentum from the torso."
+   ]
+  },
+  {
+   "slug": "reverse-pec-deck",
+   "name": "Reverse Pec Deck",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "back"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hinge forward or face the machine with arms extended.",
+    "Raise the arms out wide, leading with the back of the hands.",
+    "Squeeze the rear delts without shrugging.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Squeezing the shoulder blades so the traps do the work.",
+    "Using momentum from the torso."
+   ]
+  },
+  {
+   "slug": "cable-rear-delt-fly",
+   "name": "Cable Rear Delt Fly",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "back"
+   ],
+   "equipment": "cable",
+   "difficulty": "intermediate",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hinge forward or face the machine with arms extended.",
+    "Raise the arms out wide, leading with the back of the hands.",
+    "Squeeze the rear delts without shrugging.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Squeezing the shoulder blades so the traps do the work.",
+    "Using momentum from the torso."
+   ]
+  },
+  {
+   "slug": "ez-bar-upright-row",
+   "name": "EZ-Bar Upright Row",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "biceps"
+   ],
+   "equipment": "ezBar",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hold the weight in front of the thighs with a shoulder-width grip.",
+    "Pull up along the body, leading with the elbows.",
+    "Stop when the elbows reach shoulder height.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Pulling above shoulder height, which can pinch the shoulder.",
+    "Using a very narrow grip."
+   ]
+  },
+  {
+   "slug": "cable-upright-row",
+   "name": "Cable Upright Row",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "biceps"
+   ],
+   "equipment": "cable",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hold the weight in front of the thighs with a shoulder-width grip.",
+    "Pull up along the body, leading with the elbows.",
+    "Stop when the elbows reach shoulder height.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Pulling above shoulder height, which can pinch the shoulder.",
+    "Using a very narrow grip."
+   ]
+  },
+  {
+   "slug": "dumbbell-upright-row",
+   "name": "Dumbbell Upright Row",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "traps",
+    "biceps"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPull",
+   "instructions": [
+    "Hold the weight in front of the thighs with a shoulder-width grip.",
+    "Pull up along the body, leading with the elbows.",
+    "Stop when the elbows reach shoulder height.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Pulling above shoulder height, which can pinch the shoulder.",
+    "Using a very narrow grip."
+   ]
+  },
+  {
+   "slug": "pike-push-up",
+   "name": "Pike Push-Up",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Get into position with hips high and hands on the floor (or against a wall).",
+    "Lower the head toward the floor between the hands.",
+    "Press back up to straight arms."
+   ],
+   "mistakes": [
+    "Flaring the elbows wide.",
+    "Letting the hips drop so it becomes a push-up."
+   ]
+  },
+  {
+   "slug": "handstand-push-up",
+   "name": "Handstand Push-Up",
+   "primaryMuscle": "shoulders",
+   "secondaryMuscles": [
+    "triceps",
+    "traps"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Get into position with hips high and hands on the floor (or against a wall).",
+    "Lower the head toward the floor between the hands.",
+    "Press back up to straight arms."
+   ],
+   "mistakes": [
+    "Flaring the elbows wide.",
+    "Letting the hips drop so it becomes a push-up."
+   ]
+  },
+  {
+   "slug": "barbell-curl",
+   "name": "Barbell Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "barbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "dumbbell-curl",
+   "name": "Dumbbell Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "ez-bar-curl",
+   "name": "EZ-Bar Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "ezBar",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "cable-curl",
+   "name": "Cable Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "band-curl",
+   "name": "Band Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "incline-dumbbell-curl",
+   "name": "Incline Dumbbell Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "concentration-curl",
+   "name": "Concentration Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand tall with the weight at arm's length and elbows by your sides.",
+    "Curl the weight up by bending the elbows only.",
+    "Squeeze the biceps at the top.",
+    "Lower slowly to full extension."
+   ],
+   "mistakes": [
+    "Swinging the torso to lift the weight.",
+    "Letting the elbows drift forward.",
+    "Cutting the bottom of the rep short."
+   ]
+  },
+  {
+   "slug": "hammer-curl",
+   "name": "Hammer Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the handles with palms facing each other.",
+    "Curl up without rotating the wrists.",
+    "Pause at the top, then lower slowly."
+   ],
+   "mistakes": [
+    "Swinging the weights.",
+    "Letting the wrists bend back."
+   ]
+  },
+  {
+   "slug": "cable-rope-hammer-curl",
+   "name": "Cable Rope Hammer Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the handles with palms facing each other.",
+    "Curl up without rotating the wrists.",
+    "Pause at the top, then lower slowly."
+   ],
+   "mistakes": [
+    "Swinging the weights.",
+    "Letting the wrists bend back."
+   ]
+  },
+  {
+   "slug": "ez-bar-preacher-curl",
+   "name": "EZ-Bar Preacher Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "ezBar",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the back of the upper arms on the preacher pad.",
+    "Curl the weight up until the forearms are near vertical.",
+    "Lower all the way down without locking out hard."
+   ],
+   "mistakes": [
+    "Lifting the elbows off the pad.",
+    "Dropping the weight at the bottom."
+   ]
+  },
+  {
+   "slug": "dumbbell-preacher-curl",
+   "name": "Dumbbell Preacher Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the back of the upper arms on the preacher pad.",
+    "Curl the weight up until the forearms are near vertical.",
+    "Lower all the way down without locking out hard."
+   ],
+   "mistakes": [
+    "Lifting the elbows off the pad.",
+    "Dropping the weight at the bottom."
+   ]
+  },
+  {
+   "slug": "machine-preacher-curl",
+   "name": "Machine Preacher Curl",
+   "primaryMuscle": "biceps",
+   "secondaryMuscles": [
+    "forearms"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the back of the upper arms on the preacher pad.",
+    "Curl the weight up until the forearms are near vertical.",
+    "Lower all the way down without locking out hard."
+   ],
+   "mistakes": [
+    "Lifting the elbows off the pad.",
+    "Dropping the weight at the bottom."
+   ]
+  },
+  {
+   "slug": "triceps-pushdown",
+   "name": "Triceps Pushdown",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand facing the cable with elbows pinned to your sides.",
+    "Push the handle down until the arms are fully straight.",
+    "Squeeze the triceps at the bottom.",
+    "Let the handle rise until the forearms are just above parallel."
+   ],
+   "mistakes": [
+    "Letting the elbows flare or move forward.",
+    "Leaning over the weight to push with body weight."
+   ]
+  },
+  {
+   "slug": "rope-pushdown",
+   "name": "Rope Pushdown",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand facing the cable with elbows pinned to your sides.",
+    "Push the handle down until the arms are fully straight.",
+    "Squeeze the triceps at the bottom.",
+    "Let the handle rise until the forearms are just above parallel."
+   ],
+   "mistakes": [
+    "Letting the elbows flare or move forward.",
+    "Leaning over the weight to push with body weight."
+   ]
+  },
+  {
+   "slug": "band-triceps-pushdown",
+   "name": "Band Triceps Pushdown",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand facing the cable with elbows pinned to your sides.",
+    "Push the handle down until the arms are fully straight.",
+    "Squeeze the triceps at the bottom.",
+    "Let the handle rise until the forearms are just above parallel."
+   ],
+   "mistakes": [
+    "Letting the elbows flare or move forward.",
+    "Leaning over the weight to push with body weight."
+   ]
+  },
+  {
+   "slug": "dumbbell-overhead-triceps-extension",
+   "name": "Dumbbell Overhead Triceps Extension",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the weight overhead with arms straight.",
+    "Keeping the elbows pointing forward, lower the weight behind your head.",
+    "Extend the arms back to the top."
+   ],
+   "mistakes": [
+    "Letting the elbows flare wide.",
+    "Arching the lower back."
+   ]
+  },
+  {
+   "slug": "cable-overhead-triceps-extension",
+   "name": "Cable Overhead Triceps Extension",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the weight overhead with arms straight.",
+    "Keeping the elbows pointing forward, lower the weight behind your head.",
+    "Extend the arms back to the top."
+   ],
+   "mistakes": [
+    "Letting the elbows flare wide.",
+    "Arching the lower back."
+   ]
+  },
+  {
+   "slug": "ez-bar-overhead-triceps-extension",
+   "name": "EZ-Bar Overhead Triceps Extension",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "shoulders"
+   ],
+   "equipment": "ezBar",
+   "difficulty": "intermediate",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Hold the weight overhead with arms straight.",
+    "Keeping the elbows pointing forward, lower the weight behind your head.",
+    "Extend the arms back to the top."
+   ],
+   "mistakes": [
+    "Letting the elbows flare wide.",
+    "Arching the lower back."
+   ]
+  },
+  {
+   "slug": "ez-bar-skull-crusher",
+   "name": "EZ-Bar Skull Crusher",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [],
+   "equipment": "ezBar",
+   "difficulty": "intermediate",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Lie on a bench holding the weight over your shoulders.",
+    "Bend only at the elbows to lower the weight toward your forehead.",
+    "Extend the arms back to the start."
+   ],
+   "mistakes": [
+    "Moving the upper arms so the shoulders take over.",
+    "Going too heavy and losing control near the face."
+   ]
+  },
+  {
+   "slug": "barbell-skull-crusher",
+   "name": "Barbell Skull Crusher",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Lie on a bench holding the weight over your shoulders.",
+    "Bend only at the elbows to lower the weight toward your forehead.",
+    "Extend the arms back to the start."
+   ],
+   "mistakes": [
+    "Moving the upper arms so the shoulders take over.",
+    "Going too heavy and losing control near the face."
+   ]
+  },
+  {
+   "slug": "dumbbell-skull-crusher",
+   "name": "Dumbbell Skull Crusher",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Lie on a bench holding the weight over your shoulders.",
+    "Bend only at the elbows to lower the weight toward your forehead.",
+    "Extend the arms back to the start."
+   ],
+   "mistakes": [
+    "Moving the upper arms so the shoulders take over.",
+    "Going too heavy and losing control near the face."
+   ]
+  },
+  {
+   "slug": "close-grip-bench-press",
+   "name": "Close-Grip Bench Press",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "chest",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the bench and grip the bar about shoulder-width.",
+    "Lower to the lower chest with elbows tucked close.",
+    "Press up, focusing on straightening the arms."
+   ],
+   "mistakes": [
+    "Gripping so narrow the wrists bend.",
+    "Flaring the elbows."
+   ]
+  },
+  {
+   "slug": "smith-machine-close-grip-press",
+   "name": "Smith Machine Close-Grip Press",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "chest",
+    "shoulders"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "horizontalPush",
+   "instructions": [
+    "Lie on the bench and grip the bar about shoulder-width.",
+    "Lower to the lower chest with elbows tucked close.",
+    "Press up, focusing on straightening the arms."
+   ],
+   "mistakes": [
+    "Gripping so narrow the wrists bend.",
+    "Flaring the elbows."
+   ]
+  },
+  {
+   "slug": "bench-dip",
+   "name": "Bench Dip",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "chest",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Support yourself with hands behind you on a bench or bars.",
+    "Lower by bending the elbows until they reach about 90°.",
+    "Press back up to straight arms, keeping the torso upright."
+   ],
+   "mistakes": [
+    "Letting the shoulders roll forward.",
+    "Going too deep."
+   ]
+  },
+  {
+   "slug": "triceps-dip",
+   "name": "Triceps Dip",
+   "primaryMuscle": "triceps",
+   "secondaryMuscles": [
+    "chest",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "verticalPush",
+   "instructions": [
+    "Support yourself with hands behind you on a bench or bars.",
+    "Lower by bending the elbows until they reach about 90°.",
+    "Press back up to straight arms, keeping the torso upright."
+   ],
+   "mistakes": [
+    "Letting the shoulders roll forward.",
+    "Going too deep."
+   ]
+  },
+  {
+   "slug": "barbell-wrist-curl",
+   "name": "Barbell Wrist Curl",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [],
+   "equipment": "barbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the forearms on your thighs or a bench with wrists over the edge.",
+    "Curl the weight up using only the wrists.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Moving the forearms off the support.",
+    "Using a range of motion that is too short."
+   ]
+  },
+  {
+   "slug": "dumbbell-wrist-curl",
+   "name": "Dumbbell Wrist Curl",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the forearms on your thighs or a bench with wrists over the edge.",
+    "Curl the weight up using only the wrists.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Moving the forearms off the support.",
+    "Using a range of motion that is too short."
+   ]
+  },
+  {
+   "slug": "ez-bar-reverse-curl",
+   "name": "EZ-Bar Reverse Curl",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [
+    "biceps"
+   ],
+   "equipment": "ezBar",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the forearms on your thighs or a bench with wrists over the edge.",
+    "Curl the weight up using only the wrists.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Moving the forearms off the support.",
+    "Using a range of motion that is too short."
+   ]
+  },
+  {
+   "slug": "barbell-reverse-curl",
+   "name": "Barbell Reverse Curl",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [
+    "biceps"
+   ],
+   "equipment": "barbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Rest the forearms on your thighs or a bench with wrists over the edge.",
+    "Curl the weight up using only the wrists.",
+    "Lower slowly to a full stretch."
+   ],
+   "mistakes": [
+    "Moving the forearms off the support.",
+    "Using a range of motion that is too short."
+   ]
+  },
+  {
+   "slug": "dumbbell-farmer-s-carry",
+   "name": "Dumbbell Farmer's Carry",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [
+    "traps",
+    "abs",
+    "fullBody"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "carry",
+   "instructions": [
+    "Pick up the weights with a neutral spine.",
+    "Stand tall with shoulders back and core braced.",
+    "Walk with short, controlled steps for the set distance or time.",
+    "Set the weights down by hinging, not rounding."
+   ],
+   "mistakes": [
+    "Leaning to one side.",
+    "Letting the shoulders round forward."
+   ]
+  },
+  {
+   "slug": "kettlebell-farmer-s-carry",
+   "name": "Kettlebell Farmer's Carry",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [
+    "traps",
+    "abs",
+    "fullBody"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "beginner",
+   "movementPattern": "carry",
+   "instructions": [
+    "Pick up the weights with a neutral spine.",
+    "Stand tall with shoulders back and core braced.",
+    "Walk with short, controlled steps for the set distance or time.",
+    "Set the weights down by hinging, not rounding."
+   ],
+   "mistakes": [
+    "Leaning to one side.",
+    "Letting the shoulders round forward."
+   ]
+  },
+  {
+   "slug": "trap-bar-farmer-s-carry",
+   "name": "Trap Bar Farmer's Carry",
+   "primaryMuscle": "forearms",
+   "secondaryMuscles": [
+    "traps",
+    "abs",
+    "fullBody"
+   ],
+   "equipment": "trapBar",
+   "difficulty": "intermediate",
+   "movementPattern": "carry",
+   "instructions": [
+    "Pick up the weights with a neutral spine.",
+    "Stand tall with shoulders back and core braced.",
+    "Walk with short, controlled steps for the set distance or time.",
+    "Set the weights down by hinging, not rounding."
+   ],
+   "mistakes": [
+    "Leaning to one side.",
+    "Letting the shoulders round forward."
+   ]
+  },
+  {
+   "slug": "dumbbell-suitcase-carry",
+   "name": "Dumbbell Suitcase Carry",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "forearms",
+    "abs"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "carry",
+   "instructions": [
+    "Pick up the weights with a neutral spine.",
+    "Stand tall with shoulders back and core braced.",
+    "Walk with short, controlled steps for the set distance or time.",
+    "Set the weights down by hinging, not rounding."
+   ],
+   "mistakes": [
+    "Leaning to one side.",
+    "Letting the shoulders round forward."
+   ]
+  },
+  {
+   "slug": "kettlebell-suitcase-carry",
+   "name": "Kettlebell Suitcase Carry",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "forearms",
+    "abs"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "intermediate",
+   "movementPattern": "carry",
+   "instructions": [
+    "Pick up the weights with a neutral spine.",
+    "Stand tall with shoulders back and core braced.",
+    "Walk with short, controlled steps for the set distance or time.",
+    "Set the weights down by hinging, not rounding."
+   ],
+   "mistakes": [
+    "Leaning to one side.",
+    "Letting the shoulders round forward."
+   ]
+  },
+  {
+   "slug": "barbell-back-squat",
+   "name": "Barbell Back Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "front-squat",
+   "name": "Front Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "dumbbell-goblet-squat",
+   "name": "Dumbbell Goblet Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "kettlebell-goblet-squat",
+   "name": "Kettlebell Goblet Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "beginner",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "smith-machine-squat",
+   "name": "Smith Machine Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "bodyweight-squat",
+   "name": "Bodyweight Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "box-squat",
+   "name": "Box Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "zercher-squat",
+   "name": "Zercher Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "pause-squat",
+   "name": "Pause Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "squat",
+   "instructions": [
+    "Stand with feet about shoulder-width, toes slightly out.",
+    "Brace your core and push the hips back and down.",
+    "Keep the knees tracking over the toes and the chest up.",
+    "Descend to at least parallel, then drive up through the whole foot."
+   ],
+   "mistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels.",
+    "Rounding the lower back at the bottom."
+   ]
+  },
+  {
+   "slug": "leg-press",
+   "name": "Leg Press",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "squat",
+   "instructions": [
+    "Sit with your back flat against the pad and feet shoulder-width on the platform.",
+    "Release the safeties and lower until the knees reach about 90°.",
+    "Press through the whole foot to return, without locking the knees hard."
+   ],
+   "mistakes": [
+    "Letting the lower back lift off the pad at the bottom.",
+    "Locking the knees out forcefully."
+   ]
+  },
+  {
+   "slug": "hack-squat",
+   "name": "Hack Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "machine",
+   "difficulty": "intermediate",
+   "movementPattern": "squat",
+   "instructions": [
+    "Sit with your back flat against the pad and feet shoulder-width on the platform.",
+    "Release the safeties and lower until the knees reach about 90°.",
+    "Press through the whole foot to return, without locking the knees hard."
+   ],
+   "mistakes": [
+    "Letting the lower back lift off the pad at the bottom.",
+    "Locking the knees out forcefully."
+   ]
+  },
+  {
+   "slug": "dumbbell-bulgarian-split-squat",
+   "name": "Dumbbell Bulgarian Split Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "barbell-bulgarian-split-squat",
+   "name": "Barbell Bulgarian Split Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "dumbbell-walking-lunge",
+   "name": "Dumbbell Walking Lunge",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "dumbbell-reverse-lunge",
+   "name": "Dumbbell Reverse Lunge",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "bodyweight-lunge",
+   "name": "Bodyweight Lunge",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "barbell-lunge",
+   "name": "Barbell Lunge",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "bodyweight-lateral-lunge",
+   "name": "Bodyweight Lateral Lunge",
+   "primaryMuscle": "adductors",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "dumbbell-lateral-lunge",
+   "name": "Dumbbell Lateral Lunge",
+   "primaryMuscle": "adductors",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "dumbbell-step-up",
+   "name": "Dumbbell Step-Up",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "smith-machine-split-squat",
+   "name": "Smith Machine Split Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "adductors"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "lunge",
+   "instructions": [
+    "Stand tall with the weight held securely.",
+    "Step into position and lower the back knee toward the floor.",
+    "Keep the front knee over the mid-foot and the torso upright.",
+    "Drive through the front heel to stand back up."
+   ],
+   "mistakes": [
+    "Letting the front knee cave in.",
+    "Taking a step that is too short.",
+    "Leaning the torso far forward."
+   ]
+  },
+  {
+   "slug": "leg-extension",
+   "name": "Leg Extension",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Sit with the pad on the front of the ankles and knees aligned with the pivot.",
+    "Straighten the legs fully and squeeze the quads.",
+    "Lower slowly to about 90°."
+   ],
+   "mistakes": [
+    "Kicking the weight up with momentum.",
+    "Lifting the hips off the seat."
+   ]
+  },
+  {
+   "slug": "sissy-squat",
+   "name": "Sissy Squat",
+   "primaryMuscle": "quads",
+   "secondaryMuscles": [],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "squat",
+   "instructions": [
+    "Sit with the pad on the front of the ankles and knees aligned with the pivot.",
+    "Straighten the legs fully and squeeze the quads.",
+    "Lower slowly to about 90°."
+   ],
+   "mistakes": [
+    "Kicking the weight up with momentum.",
+    "Lifting the hips off the seat."
+   ]
+  },
+  {
+   "slug": "barbell-deadlift",
+   "name": "Barbell Deadlift",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "back",
+    "forearms"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "sumo-deadlift",
+   "name": "Sumo Deadlift",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "adductors",
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "trap-bar-deadlift",
+   "name": "Trap Bar Deadlift",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "back",
+    "forearms"
+   ],
+   "equipment": "trapBar",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "deficit-deadlift",
+   "name": "Deficit Deadlift",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "back",
+    "forearms"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "rack-pull",
+   "name": "Rack Pull",
+   "primaryMuscle": "back",
+   "secondaryMuscles": [
+    "traps",
+    "glutes",
+    "forearms"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "kettlebell-deadlift",
+   "name": "Kettlebell Deadlift",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "back",
+    "forearms"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "dumbbell-deadlift",
+   "name": "Dumbbell Deadlift",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "back",
+    "forearms"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with mid-foot under the bar and grip just outside the legs.",
+    "Brace, flatten the back and pull the slack out of the bar.",
+    "Push the floor away, keeping the bar close to the legs.",
+    "Stand tall with hips locked, then lower the bar the same way."
+   ],
+   "mistakes": [
+    "Rounding the lower back.",
+    "Letting the bar drift away from the body.",
+    "Jerking the bar off the floor."
+   ]
+  },
+  {
+   "slug": "barbell-romanian-deadlift",
+   "name": "Barbell Romanian Deadlift",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "glutes",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "dumbbell-romanian-deadlift",
+   "name": "Dumbbell Romanian Deadlift",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "glutes",
+    "lowerBack"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "single-leg-dumbbell-romanian-deadlift",
+   "name": "Single-Leg Dumbbell Romanian Deadlift",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "glutes",
+    "lowerBack"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "advanced",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "kettlebell-romanian-deadlift",
+   "name": "Kettlebell Romanian Deadlift",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "glutes",
+    "lowerBack"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "stiff-leg-deadlift",
+   "name": "Stiff-Leg Deadlift",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "glutes",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "good-morning",
+   "name": "Good Morning",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "glutes",
+    "lowerBack"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "cable-pull-through",
+   "name": "Cable Pull-Through",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand tall holding the weight in front of the thighs.",
+    "With soft knees, push the hips back and slide the weight down the legs.",
+    "Lower until you feel a strong hamstring stretch, keeping the back flat.",
+    "Drive the hips forward to stand up."
+   ],
+   "mistakes": [
+    "Rounding the back to reach lower.",
+    "Bending the knees so it becomes a squat."
+   ]
+  },
+  {
+   "slug": "lying-leg-curl",
+   "name": "Lying Leg Curl",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "calves"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set the pad just above the heels.",
+    "Curl the heels toward the glutes as far as possible.",
+    "Squeeze, then lower slowly to almost straight legs."
+   ],
+   "mistakes": [
+    "Lifting the hips to cheat the weight up.",
+    "Rushing the lowering phase."
+   ]
+  },
+  {
+   "slug": "seated-leg-curl",
+   "name": "Seated Leg Curl",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "calves"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set the pad just above the heels.",
+    "Curl the heels toward the glutes as far as possible.",
+    "Squeeze, then lower slowly to almost straight legs."
+   ],
+   "mistakes": [
+    "Lifting the hips to cheat the weight up.",
+    "Rushing the lowering phase."
+   ]
+  },
+  {
+   "slug": "band-leg-curl",
+   "name": "Band Leg Curl",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "calves"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set the pad just above the heels.",
+    "Curl the heels toward the glutes as far as possible.",
+    "Squeeze, then lower slowly to almost straight legs."
+   ],
+   "mistakes": [
+    "Lifting the hips to cheat the weight up.",
+    "Rushing the lowering phase."
+   ]
+  },
+  {
+   "slug": "nordic-hamstring-curl",
+   "name": "Nordic Hamstring Curl",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "calves"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Kneel with your ankles anchored and body upright.",
+    "Slowly lower your torso toward the floor, resisting with the hamstrings.",
+    "Catch yourself with your hands, then pull back up with the hamstrings."
+   ],
+   "mistakes": [
+    "Lifting the hips to cheat the weight up.",
+    "Rushing the lowering phase."
+   ]
+  },
+  {
+   "slug": "glute-ham-raise",
+   "name": "Glute-Ham Raise",
+   "primaryMuscle": "hamstrings",
+   "secondaryMuscles": [
+    "calves"
+   ],
+   "equipment": "machine",
+   "difficulty": "advanced",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set the pad just above the heels.",
+    "Curl the heels toward the glutes as far as possible.",
+    "Squeeze, then lower slowly to almost straight legs."
+   ],
+   "mistakes": [
+    "Lifting the hips to cheat the weight up.",
+    "Rushing the lowering phase."
+   ]
+  },
+  {
+   "slug": "barbell-hip-thrust",
+   "name": "Barbell Hip Thrust",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Rest the upper back on a bench (or lie on the floor) with feet flat.",
+    "Drive through the heels to lift the hips until the body forms a straight line.",
+    "Squeeze the glutes hard at the top with the chin tucked.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Arching the lower back instead of extending the hips.",
+    "Pushing through the toes."
+   ]
+  },
+  {
+   "slug": "smith-machine-hip-thrust",
+   "name": "Smith Machine Hip Thrust",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Rest the upper back on a bench (or lie on the floor) with feet flat.",
+    "Drive through the heels to lift the hips until the body forms a straight line.",
+    "Squeeze the glutes hard at the top with the chin tucked.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Arching the lower back instead of extending the hips.",
+    "Pushing through the toes."
+   ]
+  },
+  {
+   "slug": "machine-hip-thrust",
+   "name": "Machine Hip Thrust",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Rest the upper back on a bench (or lie on the floor) with feet flat.",
+    "Drive through the heels to lift the hips until the body forms a straight line.",
+    "Squeeze the glutes hard at the top with the chin tucked.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Arching the lower back instead of extending the hips.",
+    "Pushing through the toes."
+   ]
+  },
+  {
+   "slug": "glute-bridge",
+   "name": "Glute Bridge",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Rest the upper back on a bench (or lie on the floor) with feet flat.",
+    "Drive through the heels to lift the hips until the body forms a straight line.",
+    "Squeeze the glutes hard at the top with the chin tucked.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Arching the lower back instead of extending the hips.",
+    "Pushing through the toes."
+   ]
+  },
+  {
+   "slug": "single-leg-glute-bridge",
+   "name": "Single-Leg Glute Bridge",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Rest the upper back on a bench (or lie on the floor) with feet flat.",
+    "Drive through the heels to lift the hips until the body forms a straight line.",
+    "Squeeze the glutes hard at the top with the chin tucked.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Arching the lower back instead of extending the hips.",
+    "Pushing through the toes."
+   ]
+  },
+  {
+   "slug": "banded-glute-bridge",
+   "name": "Banded Glute Bridge",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "quads"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Rest the upper back on a bench (or lie on the floor) with feet flat.",
+    "Drive through the heels to lift the hips until the body forms a straight line.",
+    "Squeeze the glutes hard at the top with the chin tucked.",
+    "Lower under control."
+   ],
+   "mistakes": [
+    "Arching the lower back instead of extending the hips.",
+    "Pushing through the toes."
+   ]
+  },
+  {
+   "slug": "hip-abduction-machine",
+   "name": "Hip Abduction Machine",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "adductors"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set up in the machine or with the band and brace your core.",
+    "Move the leg(s) through the full range under control.",
+    "Pause at the end range and return slowly."
+   ],
+   "mistakes": [
+    "Using momentum.",
+    "Leaning the torso to fake range of motion."
+   ]
+  },
+  {
+   "slug": "hip-adduction-machine",
+   "name": "Hip Adduction Machine",
+   "primaryMuscle": "adductors",
+   "secondaryMuscles": [],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set up in the machine or with the band and brace your core.",
+    "Move the leg(s) through the full range under control.",
+    "Pause at the end range and return slowly."
+   ],
+   "mistakes": [
+    "Using momentum.",
+    "Leaning the torso to fake range of motion."
+   ]
+  },
+  {
+   "slug": "banded-lateral-walk",
+   "name": "Banded Lateral Walk",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "adductors"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set up in the machine or with the band and brace your core.",
+    "Move the leg(s) through the full range under control.",
+    "Pause at the end range and return slowly."
+   ],
+   "mistakes": [
+    "Using momentum.",
+    "Leaning the torso to fake range of motion."
+   ]
+  },
+  {
+   "slug": "cable-glute-kickback",
+   "name": "Cable Glute Kickback",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Set up in the machine or with the band and brace your core.",
+    "Move the leg(s) through the full range under control.",
+    "Pause at the end range and return slowly."
+   ],
+   "mistakes": [
+    "Using momentum.",
+    "Leaning the torso to fake range of motion."
+   ]
+  },
+  {
+   "slug": "copenhagen-plank",
+   "name": "Copenhagen Plank",
+   "primaryMuscle": "adductors",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up in the machine or with the band and brace your core.",
+    "Move the leg(s) through the full range under control.",
+    "Pause at the end range and return slowly."
+   ],
+   "mistakes": [
+    "Using momentum.",
+    "Leaning the torso to fake range of motion."
+   ]
+  },
+  {
+   "slug": "standing-calf-raise",
+   "name": "Standing Calf Raise",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand with the balls of the feet on the edge of a step or platform.",
+    "Lower the heels for a deep stretch.",
+    "Rise as high as possible onto the toes and pause.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Bouncing at the bottom.",
+    "Using a short, fast range of motion."
+   ]
+  },
+  {
+   "slug": "seated-calf-raise",
+   "name": "Seated Calf Raise",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand with the balls of the feet on the edge of a step or platform.",
+    "Lower the heels for a deep stretch.",
+    "Rise as high as possible onto the toes and pause.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Bouncing at the bottom.",
+    "Using a short, fast range of motion."
+   ]
+  },
+  {
+   "slug": "smith-machine-calf-raise",
+   "name": "Smith Machine Calf Raise",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [],
+   "equipment": "smithMachine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand with the balls of the feet on the edge of a step or platform.",
+    "Lower the heels for a deep stretch.",
+    "Rise as high as possible onto the toes and pause.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Bouncing at the bottom.",
+    "Using a short, fast range of motion."
+   ]
+  },
+  {
+   "slug": "single-leg-dumbbell-calf-raise",
+   "name": "Single-Leg Dumbbell Calf Raise",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [],
+   "equipment": "dumbbell",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand with the balls of the feet on the edge of a step or platform.",
+    "Lower the heels for a deep stretch.",
+    "Rise as high as possible onto the toes and pause.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Bouncing at the bottom.",
+    "Using a short, fast range of motion."
+   ]
+  },
+  {
+   "slug": "leg-press-calf-raise",
+   "name": "Leg Press Calf Raise",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand with the balls of the feet on the edge of a step or platform.",
+    "Lower the heels for a deep stretch.",
+    "Rise as high as possible onto the toes and pause.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Bouncing at the bottom.",
+    "Using a short, fast range of motion."
+   ]
+  },
+  {
+   "slug": "bodyweight-calf-raise",
+   "name": "Bodyweight Calf Raise",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "isolation",
+   "instructions": [
+    "Stand with the balls of the feet on the edge of a step or platform.",
+    "Lower the heels for a deep stretch.",
+    "Rise as high as possible onto the toes and pause.",
+    "Lower slowly."
+   ],
+   "mistakes": [
+    "Bouncing at the bottom.",
+    "Using a short, fast range of motion."
+   ]
+  },
+  {
+   "slug": "kettlebell-swing",
+   "name": "Kettlebell Swing",
+   "primaryMuscle": "glutes",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "shoulders"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "intermediate",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with the kettlebell slightly in front of you.",
+    "Hike it back between the legs by hinging at the hips.",
+    "Snap the hips forward explosively to drive the bell up.",
+    "Let it fall back into the hinge and repeat."
+   ],
+   "mistakes": [
+    "Squatting instead of hinging.",
+    "Lifting with the arms.",
+    "Leaning back at the top."
+   ]
+  },
+  {
+   "slug": "kettlebell-clean",
+   "name": "Kettlebell Clean",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "shoulders"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "advanced",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with the kettlebell slightly in front of you.",
+    "Hike it back between the legs by hinging at the hips.",
+    "Snap the hips forward explosively to drive the bell up.",
+    "Let it fall back into the hinge and repeat."
+   ],
+   "mistakes": [
+    "Squatting instead of hinging.",
+    "Lifting with the arms.",
+    "Leaning back at the top."
+   ]
+  },
+  {
+   "slug": "kettlebell-snatch",
+   "name": "Kettlebell Snatch",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "hamstrings",
+    "lowerBack",
+    "shoulders"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "advanced",
+   "movementPattern": "hinge",
+   "instructions": [
+    "Stand with the kettlebell slightly in front of you.",
+    "Hike it back between the legs by hinging at the hips.",
+    "Snap the hips forward explosively to drive the bell up.",
+    "Let it fall back into the hinge and repeat."
+   ],
+   "mistakes": [
+    "Squatting instead of hinging.",
+    "Lifting with the arms.",
+    "Leaning back at the top."
+   ]
+  },
+  {
+   "slug": "turkish-get-up",
+   "name": "Turkish Get-Up",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "shoulders",
+    "abs",
+    "glutes"
+   ],
+   "equipment": "kettlebell",
+   "difficulty": "advanced",
+   "movementPattern": "core",
+   "instructions": [
+    "Lie down holding the kettlebell straight up over one shoulder.",
+    "Roll onto the opposite elbow, then hand, keeping the arm vertical.",
+    "Bridge the hips, sweep the leg back to a kneel, then stand up.",
+    "Reverse each step slowly to return to the floor."
+   ],
+   "mistakes": [
+    "Squatting instead of hinging.",
+    "Lifting with the arms.",
+    "Leaning back at the top."
+   ]
+  },
+  {
+   "slug": "plank",
+   "name": "Plank",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Set the forearms under the shoulders and extend the legs.",
+    "Brace the core and squeeze the glutes so the body is straight.",
+    "Breathe steadily and hold for the target time."
+   ],
+   "mistakes": [
+    "Letting the hips sag.",
+    "Holding the breath."
+   ]
+  },
+  {
+   "slug": "side-plank",
+   "name": "Side Plank",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Set the forearms under the shoulders and extend the legs.",
+    "Brace the core and squeeze the glutes so the body is straight.",
+    "Breathe steadily and hold for the target time."
+   ],
+   "mistakes": [
+    "Letting the hips sag.",
+    "Holding the breath."
+   ]
+  },
+  {
+   "slug": "plank-shoulder-tap",
+   "name": "Plank Shoulder Tap",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Set the forearms under the shoulders and extend the legs.",
+    "Brace the core and squeeze the glutes so the body is straight.",
+    "Breathe steadily and hold for the target time."
+   ],
+   "mistakes": [
+    "Letting the hips sag.",
+    "Holding the breath."
+   ]
+  },
+  {
+   "slug": "rkc-plank",
+   "name": "RKC Plank",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "core",
+   "instructions": [
+    "Set the forearms under the shoulders and extend the legs.",
+    "Brace the core and squeeze the glutes so the body is straight.",
+    "Breathe steadily and hold for the target time."
+   ],
+   "mistakes": [
+    "Letting the hips sag.",
+    "Holding the breath."
+   ]
+  },
+  {
+   "slug": "crunch",
+   "name": "Crunch",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Start with the spine neutral and core braced.",
+    "Curl the ribs toward the pelvis, flexing the spine.",
+    "Squeeze the abs, then return slowly."
+   ],
+   "mistakes": [
+    "Pulling on the neck.",
+    "Using momentum to swing up."
+   ]
+  },
+  {
+   "slug": "cable-crunch",
+   "name": "Cable Crunch",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "cable",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Start with the spine neutral and core braced.",
+    "Curl the ribs toward the pelvis, flexing the spine.",
+    "Squeeze the abs, then return slowly."
+   ],
+   "mistakes": [
+    "Pulling on the neck.",
+    "Using momentum to swing up."
+   ]
+  },
+  {
+   "slug": "machine-crunch",
+   "name": "Machine Crunch",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Start with the spine neutral and core braced.",
+    "Curl the ribs toward the pelvis, flexing the spine.",
+    "Squeeze the abs, then return slowly."
+   ],
+   "mistakes": [
+    "Pulling on the neck.",
+    "Using momentum to swing up."
+   ]
+  },
+  {
+   "slug": "decline-crunch",
+   "name": "Decline Crunch",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Start with the spine neutral and core braced.",
+    "Curl the ribs toward the pelvis, flexing the spine.",
+    "Squeeze the abs, then return slowly."
+   ],
+   "mistakes": [
+    "Pulling on the neck.",
+    "Using momentum to swing up."
+   ]
+  },
+  {
+   "slug": "bicycle-crunch",
+   "name": "Bicycle Crunch",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "abs"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Start with the spine neutral and core braced.",
+    "Curl the ribs toward the pelvis, flexing the spine.",
+    "Squeeze the abs, then return slowly."
+   ],
+   "mistakes": [
+    "Pulling on the neck.",
+    "Using momentum to swing up."
+   ]
+  },
+  {
+   "slug": "hanging-leg-raise",
+   "name": "Hanging Leg Raise",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "forearms"
+   ],
+   "equipment": "pullUpBar",
+   "difficulty": "advanced",
+   "movementPattern": "core",
+   "instructions": [
+    "Hang or lie with the legs extended.",
+    "Tilt the pelvis back and lift the legs (or knees) with control.",
+    "Lower slowly without swinging."
+   ],
+   "mistakes": [
+    "Swinging the body for momentum.",
+    "Arching the lower back on the way down."
+   ]
+  },
+  {
+   "slug": "hanging-knee-raise",
+   "name": "Hanging Knee Raise",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "forearms"
+   ],
+   "equipment": "pullUpBar",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Hang or lie with the legs extended.",
+    "Tilt the pelvis back and lift the legs (or knees) with control.",
+    "Lower slowly without swinging."
+   ],
+   "mistakes": [
+    "Swinging the body for momentum.",
+    "Arching the lower back on the way down."
+   ]
+  },
+  {
+   "slug": "lying-leg-raise",
+   "name": "Lying Leg Raise",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "forearms"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Hang or lie with the legs extended.",
+    "Tilt the pelvis back and lift the legs (or knees) with control.",
+    "Lower slowly without swinging."
+   ],
+   "mistakes": [
+    "Swinging the body for momentum.",
+    "Arching the lower back on the way down."
+   ]
+  },
+  {
+   "slug": "captain-s-chair-knee-raise",
+   "name": "Captain's Chair Knee Raise",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "forearms"
+   ],
+   "equipment": "machine",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Hang or lie with the legs extended.",
+    "Tilt the pelvis back and lift the legs (or knees) with control.",
+    "Lower slowly without swinging."
+   ],
+   "mistakes": [
+    "Swinging the body for momentum.",
+    "Arching the lower back on the way down."
+   ]
+  },
+  {
+   "slug": "russian-twist",
+   "name": "Russian Twist",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "abs",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up with the core braced and hips square.",
+    "Rotate (or resist rotation) through the torso, not the arms.",
+    "Return under control and repeat on both sides."
+   ],
+   "mistakes": [
+    "Rotating from the lower back instead of the upper torso.",
+    "Moving too fast."
+   ]
+  },
+  {
+   "slug": "medicine-ball-russian-twist",
+   "name": "Medicine Ball Russian Twist",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "abs",
+    "shoulders"
+   ],
+   "equipment": "medicineBall",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up with the core braced and hips square.",
+    "Rotate (or resist rotation) through the torso, not the arms.",
+    "Return under control and repeat on both sides."
+   ],
+   "mistakes": [
+    "Rotating from the lower back instead of the upper torso.",
+    "Moving too fast."
+   ]
+  },
+  {
+   "slug": "cable-woodchop",
+   "name": "Cable Woodchop",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "abs",
+    "shoulders"
+   ],
+   "equipment": "cable",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up with the core braced and hips square.",
+    "Rotate (or resist rotation) through the torso, not the arms.",
+    "Return under control and repeat on both sides."
+   ],
+   "mistakes": [
+    "Rotating from the lower back instead of the upper torso.",
+    "Moving too fast."
+   ]
+  },
+  {
+   "slug": "cable-pallof-press",
+   "name": "Cable Pallof Press",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "cable",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up with the core braced and hips square.",
+    "Rotate (or resist rotation) through the torso, not the arms.",
+    "Return under control and repeat on both sides."
+   ],
+   "mistakes": [
+    "Rotating from the lower back instead of the upper torso.",
+    "Moving too fast."
+   ]
+  },
+  {
+   "slug": "band-pallof-press",
+   "name": "Band Pallof Press",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques"
+   ],
+   "equipment": "band",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up with the core braced and hips square.",
+    "Rotate (or resist rotation) through the torso, not the arms.",
+    "Return under control and repeat on both sides."
+   ],
+   "mistakes": [
+    "Rotating from the lower back instead of the upper torso.",
+    "Moving too fast."
+   ]
+  },
+  {
+   "slug": "landmine-rotation",
+   "name": "Landmine Rotation",
+   "primaryMuscle": "obliques",
+   "secondaryMuscles": [
+    "abs",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Set up with the core braced and hips square.",
+    "Rotate (or resist rotation) through the torso, not the arms.",
+    "Return under control and repeat on both sides."
+   ],
+   "mistakes": [
+    "Rotating from the lower back instead of the upper torso.",
+    "Moving too fast."
+   ]
+  },
+  {
+   "slug": "ab-wheel-rollout",
+   "name": "Ab Wheel Rollout",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "advanced",
+   "movementPattern": "core",
+   "instructions": [
+    "Start in position with the lower back pressed toward the floor.",
+    "Move slowly while keeping the core braced and the spine neutral.",
+    "Return to the start without losing tension."
+   ],
+   "mistakes": [
+    "Letting the lower back arch.",
+    "Rushing the movement."
+   ]
+  },
+  {
+   "slug": "dead-bug",
+   "name": "Dead Bug",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Start in position with the lower back pressed toward the floor.",
+    "Move slowly while keeping the core braced and the spine neutral.",
+    "Return to the start without losing tension."
+   ],
+   "mistakes": [
+    "Letting the lower back arch.",
+    "Rushing the movement."
+   ]
+  },
+  {
+   "slug": "bird-dog",
+   "name": "Bird Dog",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "lowerBack",
+    "glutes"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "core",
+   "instructions": [
+    "Start in position with the lower back pressed toward the floor.",
+    "Move slowly while keeping the core braced and the spine neutral.",
+    "Return to the start without losing tension."
+   ],
+   "mistakes": [
+    "Letting the lower back arch.",
+    "Rushing the movement."
+   ]
+  },
+  {
+   "slug": "hollow-body-hold",
+   "name": "Hollow Body Hold",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Start in position with the lower back pressed toward the floor.",
+    "Move slowly while keeping the core braced and the spine neutral.",
+    "Return to the start without losing tension."
+   ],
+   "mistakes": [
+    "Letting the lower back arch.",
+    "Rushing the movement."
+   ]
+  },
+  {
+   "slug": "mountain-climber",
+   "name": "Mountain Climber",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Start in position with the lower back pressed toward the floor.",
+    "Move slowly while keeping the core braced and the spine neutral.",
+    "Return to the start without losing tension."
+   ],
+   "mistakes": [
+    "Letting the lower back arch.",
+    "Rushing the movement."
+   ]
+  },
+  {
+   "slug": "v-up",
+   "name": "V-Up",
+   "primaryMuscle": "abs",
+   "secondaryMuscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "core",
+   "instructions": [
+    "Start in position with the lower back pressed toward the floor.",
+    "Move slowly while keeping the core braced and the spine neutral.",
+    "Return to the start without losing tension."
+   ],
+   "mistakes": [
+    "Letting the lower back arch.",
+    "Rushing the movement."
+   ]
+  },
+  {
+   "slug": "power-clean",
+   "name": "Power Clean",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "glutes",
+    "quads",
+    "hamstrings",
+    "traps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Set up with the bar over mid-foot and a flat back.",
+    "Pull the bar close to the body, then extend the hips explosively.",
+    "Pull yourself under the bar and receive it in the catch position.",
+    "Stand up to finish, then return the bar under control."
+   ],
+   "mistakes": [
+    "Pulling early with the arms.",
+    "Letting the bar swing away from the body."
+   ]
+  },
+  {
+   "slug": "hang-clean",
+   "name": "Hang Clean",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "glutes",
+    "quads",
+    "hamstrings",
+    "traps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Set up with the bar over mid-foot and a flat back.",
+    "Pull the bar close to the body, then extend the hips explosively.",
+    "Pull yourself under the bar and receive it in the catch position.",
+    "Stand up to finish, then return the bar under control."
+   ],
+   "mistakes": [
+    "Pulling early with the arms.",
+    "Letting the bar swing away from the body."
+   ]
+  },
+  {
+   "slug": "clean-and-jerk",
+   "name": "Clean and Jerk",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "glutes",
+    "quads",
+    "hamstrings",
+    "traps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Set up with the bar over mid-foot and a flat back.",
+    "Pull the bar close to the body, then extend the hips explosively.",
+    "Pull yourself under the bar and receive it in the catch position.",
+    "Stand up to finish, then return the bar under control."
+   ],
+   "mistakes": [
+    "Pulling early with the arms.",
+    "Letting the bar swing away from the body."
+   ]
+  },
+  {
+   "slug": "barbell-snatch",
+   "name": "Barbell Snatch",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "glutes",
+    "quads",
+    "hamstrings",
+    "traps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "advanced",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Set up with the bar over mid-foot and a flat back.",
+    "Pull the bar close to the body, then extend the hips explosively.",
+    "Pull yourself under the bar and receive it in the catch position.",
+    "Stand up to finish, then return the bar under control."
+   ],
+   "mistakes": [
+    "Pulling early with the arms.",
+    "Letting the bar swing away from the body."
+   ]
+  },
+  {
+   "slug": "barbell-thruster",
+   "name": "Barbell Thruster",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "glutes",
+    "quads",
+    "hamstrings",
+    "traps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "difficulty": "intermediate",
+   "movementPattern": "squat",
+   "instructions": [
+    "Hold the bar in the front rack position.",
+    "Squat to depth with the chest up.",
+    "Drive up explosively and use that momentum to press the bar overhead.",
+    "Return the bar to the shoulders as you descend into the next squat."
+   ],
+   "mistakes": [
+    "Pulling early with the arms.",
+    "Letting the bar swing away from the body."
+   ]
+  },
+  {
+   "slug": "dumbbell-thruster",
+   "name": "Dumbbell Thruster",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "glutes",
+    "quads",
+    "hamstrings",
+    "traps",
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "difficulty": "intermediate",
+   "movementPattern": "squat",
+   "instructions": [
+    "Hold the dumbbells at the shoulders.",
+    "Squat to depth with the chest up.",
+    "Drive up explosively and press the dumbbells overhead.",
+    "Lower them to the shoulders as you descend into the next squat."
+   ],
+   "mistakes": [
+    "Pulling early with the arms.",
+    "Letting the bar swing away from the body."
+   ]
+  },
+  {
+   "slug": "burpee",
+   "name": "Burpee",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "calves"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "box-jump",
+   "name": "Box Jump",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "calves"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "jump-squat",
+   "name": "Jump Squat",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "calves"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "broad-jump",
+   "name": "Broad Jump",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "calves"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "jumping-lunge",
+   "name": "Jumping Lunge",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "calves"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "intermediate",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "medicine-ball-slam",
+   "name": "Medicine Ball Slam",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "abs",
+    "shoulders",
+    "lats"
+   ],
+   "equipment": "medicineBall",
+   "difficulty": "beginner",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "wall-ball",
+   "name": "Wall Ball",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "shoulders"
+   ],
+   "equipment": "medicineBall",
+   "difficulty": "intermediate",
+   "movementPattern": "plyometric",
+   "instructions": [
+    "Start in an athletic stance.",
+    "Load the hips and arms, then explode through the movement.",
+    "Land softly with bent knees and reset before the next rep."
+   ],
+   "mistakes": [
+    "Landing with locked knees.",
+    "Letting the knees cave in on landing."
+   ]
+  },
+  {
+   "slug": "rowing-machine",
+   "name": "Rowing Machine",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Strap in with the footplates so the strap crosses the balls of the feet.",
+    "Drive with the legs first, then lean back slightly, then pull the handle to the ribs.",
+    "Return in reverse order: arms, body, then legs."
+   ],
+   "mistakes": [
+    "Pulling with the arms before the legs finish driving.",
+    "Hunching the back."
+   ]
+  },
+  {
+   "slug": "assault-bike",
+   "name": "Assault Bike",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Set the seat so the knee is slightly bent at the bottom.",
+    "Push and pull the handles while pedalling.",
+    "Control effort with cadence; sprint intervals or steady pace."
+   ],
+   "mistakes": [
+    "Going all-out in the first seconds and fading.",
+    "Slouching over the handles."
+   ]
+  },
+  {
+   "slug": "stationary-bike",
+   "name": "Stationary Bike",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Adjust the seat to hip height when standing next to the bike.",
+    "Pedal with a smooth, round stroke.",
+    "Keep the upper body relaxed and core engaged."
+   ],
+   "mistakes": [
+    "Seat set too low, which strains the knees.",
+    "Bouncing in the saddle."
+   ]
+  },
+  {
+   "slug": "elliptical",
+   "name": "Elliptical",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Stand tall with feet flat on the pedals.",
+    "Move in a smooth stride, using the handles lightly.",
+    "Adjust resistance to reach the target effort."
+   ],
+   "mistakes": [
+    "Leaning heavily on the handles.",
+    "Letting the heels lift."
+   ]
+  },
+  {
+   "slug": "stair-climber",
+   "name": "Stair Climber",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Stand tall and hold the rails lightly for balance.",
+    "Step with the whole foot on each stair.",
+    "Keep a steady cadence."
+   ],
+   "mistakes": [
+    "Leaning on the rails to take weight off the legs.",
+    "Taking tiny tip-toe steps."
+   ]
+  },
+  {
+   "slug": "ski-erg",
+   "name": "Ski Erg",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Stand facing the machine and grab both handles overhead.",
+    "Hinge and pull the handles down past the hips using lats and core.",
+    "Return to tall standing as the handles rise."
+   ],
+   "mistakes": [
+    "Pulling with only the arms.",
+    "Rounding the back at the bottom."
+   ]
+  },
+  {
+   "slug": "treadmill-run",
+   "name": "Treadmill Run",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "cardioMachine",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Start at a walking pace and build up gradually.",
+    "Run tall with a relaxed upper body and quick, light steps.",
+    "Use a 1% incline to mimic outdoor running."
+   ],
+   "mistakes": [
+    "Holding onto the rails.",
+    "Over-striding and heel-striking hard."
+   ]
+  },
+  {
+   "slug": "jump-rope",
+   "name": "Jump Rope",
+   "primaryMuscle": "calves",
+   "secondaryMuscles": [
+    "fullBody",
+    "shoulders"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Hold the handles with elbows close to the body.",
+    "Turn the rope with the wrists, not the arms.",
+    "Jump just high enough to clear the rope, landing on the balls of the feet."
+   ],
+   "mistakes": [
+    "Jumping too high.",
+    "Swinging the arms in big circles."
+   ]
+  },
+  {
+   "slug": "sled-push",
+   "name": "Sled Push",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "quads",
+    "glutes",
+    "calves"
+   ],
+   "equipment": "machine",
+   "difficulty": "intermediate",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Lean into the sled with arms extended and a flat back.",
+    "Drive with short, powerful steps.",
+    "Keep the hips low and push for the set distance."
+   ],
+   "mistakes": [
+    "Standing too upright.",
+    "Taking long, slow strides."
+   ]
+  },
+  {
+   "slug": "bear-crawl",
+   "name": "Bear Crawl",
+   "primaryMuscle": "fullBody",
+   "secondaryMuscles": [
+    "shoulders",
+    "abs",
+    "quads"
+   ],
+   "equipment": "bodyweight",
+   "difficulty": "beginner",
+   "movementPattern": "conditioning",
+   "instructions": [
+    "Start on hands and toes with knees hovering just off the floor.",
+    "Crawl forward moving opposite hand and foot together.",
+    "Keep the back flat and hips low."
+   ],
+   "mistakes": [
+    "Letting the hips rise high.",
+    "Moving the same-side hand and foot together."
+   ]
+  }
+ ]
+}
