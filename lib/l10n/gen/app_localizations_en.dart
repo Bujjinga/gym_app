@@ -1430,33 +1430,33 @@ class AppLocalizationsEn extends AppLocalizations {
       'Connect Apple Health or Health Connect to get a recovery score from your sleep and heart rate.';
 
   @override
-  String get reminderWorkoutTitle => 'Time to train';
+  String get reminderWorkoutTitle => 'Get up. It\'s time.';
 
   @override
   String reminderWorkoutBody(String name) {
-    return '$name is on today\'s plan.';
+    return '$name is on the plan. The weights aren\'t lifting themselves.';
   }
 
   @override
-  String get reminderStreakTitle => 'Keep your streak alive';
+  String get reminderStreakTitle => 'Don\'t you dare break it';
 
   @override
   String reminderStreakBody(int count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count days so far',
-      one: '1 day so far',
+      other: '$count days strong',
+      one: '1 day strong',
     );
-    return '$_temp0. A short walk still counts.';
+    return '$_temp0. Ten minutes of walking keeps it alive.';
   }
 
   @override
-  String get reminderInactiveTitle => 'Ready when you are';
+  String get reminderInactiveTitle => 'Where have you been?';
 
   @override
   String get reminderInactiveBody =>
-      'It\'s been a few days. Even a 20-minute session keeps the habit going.';
+      'Three days off. Time to get it together and go train.';
 
   @override
   String get goalReachedTitle => 'Step goal reached!';
@@ -1499,4 +1499,121 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get remindersDenied =>
       'Notifications are turned off for PULSE. Turn them on in system settings.';
+
+  @override
+  String get reminderWorkoutTitle2 => 'No excuses today';
+
+  @override
+  String reminderWorkoutBody2(String name) {
+    return '$name is waiting. Show up for yourself.';
+  }
+
+  @override
+  String get reminderWorkoutTitle3 => 'Clock in';
+
+  @override
+  String reminderWorkoutBody3(String name) {
+    return '$name today. Future you is watching.';
+  }
+
+  @override
+  String get reminderStreakTitle2 => 'Your streak is on the line';
+
+  @override
+  String reminderStreakBody2(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count days',
+      one: '1 day',
+    );
+    return '$_temp0 of work. Don\'t throw it away tonight.';
+  }
+
+  @override
+  String get reminderStreakTitle3 => 'Still nothing today?';
+
+  @override
+  String reminderStreakBody3(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count-day',
+      one: '1-day',
+    );
+    return 'Protect the $_temp0 streak. Move. Now.';
+  }
+
+  @override
+  String get reminderInactiveTitle2 => 'Excuses don\'t build muscle';
+
+  @override
+  String get reminderInactiveBody2 =>
+      'Your gym bag misses you. Twenty minutes. Go.';
+
+  @override
+  String get reminderInactiveTitle3 => 'Comfort zone detected';
+
+  @override
+  String get reminderInactiveBody3 =>
+      'Nobody is coming to motivate you. Get up and get it done.';
+
+  @override
+  String get refreshing => 'Refreshing';
+
+  @override
+  String get appLockTitle => 'App lock';
+
+  @override
+  String get appLockBody =>
+      'Ask for Face ID, fingerprint or your PIN when PULSE opens.';
+
+  @override
+  String get appLockBiometric => 'Unlock with Face ID or fingerprint';
+
+  @override
+  String get appLockChangePin => 'Change PIN';
+
+  @override
+  String get appLockOn => 'App lock is on';
+
+  @override
+  String get lockTitle => 'PULSE is locked';
+
+  @override
+  String get lockReason => 'Unlock PULSE';
+
+  @override
+  String get lockEnterPin => 'Enter your PIN';
+
+  @override
+  String get lockWrongPin => 'Wrong PIN';
+
+  @override
+  String lockTooMany(int seconds) {
+    return 'Too many tries. Try again in $seconds s.';
+  }
+
+  @override
+  String get lockUseBiometric => 'Use Face ID or fingerprint';
+
+  @override
+  String get keypadDelete => 'Delete';
+
+  @override
+  String get pinCreate => 'Choose a 4-digit PIN';
+
+  @override
+  String get pinConfirm => 'Enter it again';
+
+  @override
+  String get pinMismatch => 'PINs didn\'t match. Start over.';
+
+  @override
+  String get pinCurrent => 'Enter your current PIN';
+
+  @override
+  String pinProgress(int entered, int total) {
+    return '$entered of $total digits entered';
+  }
 }

@@ -5,7 +5,9 @@ import 'package:gym_app/core/platform/window_state.dart';
 import 'package:gym_app/features/activity/domain/day_activity.dart';
 import 'package:gym_app/features/coach/application/rule_based_coach.dart';
 import 'package:gym_app/features/coach/domain/coach_service.dart';
+import 'package:gym_app/features/reminders/application/reminder_scheduler.dart';
 import 'package:gym_app/features/reminders/domain/reminder_plan.dart';
+import 'package:gym_app/l10n/gen/app_localizations.dart';
 
 void main() {
   // Wednesday 28 Oct 2026, 09:00 local.
@@ -109,6 +111,24 @@ void main() {
     test('grows to the minimum size; off-screen frames fall back to default', () {
       expect(const WindowState(Rect.fromLTWH(100, 100, 400, 300)).fit([screen], min), const Rect.fromLTWH(100, 100, 900, 600));
       expect(const WindowState(Rect.fromLTWH(3000, 100, 1000, 700)).fit([screen], min), isNull);
+    });
+  });
+
+  group('reminderMessage', () {
+    final l10n = lookupAppLocalizations(const Locale('en'));
+    PlannedReminder at(int day) => (id: 300, kind: ReminderKind.inactivity, at: DateTime(2026, 10, day, 18), workoutName: null);
+
+    test('rotates the coach line by day, repeating every three days', () {
+      final titles = [for (var d = 1; d <= 3; d++) reminderMessage(l10n, at(d), streak: 0).$1];
+      expect(titles.toSet(), hasLength(3));
+      expect(reminderMessage(l10n, at(4), streak: 0), reminderMessage(l10n, at(1), streak: 0));
+    });
+
+    test('fills in the workout name and streak', () {
+      final workout = (id: 100, kind: ReminderKind.workout, at: DateTime(2026, 10, 2, 18), workoutName: 'Push day');
+      expect(reminderMessage(l10n, workout, streak: 0).$2, contains('Push day'));
+      final streak = (id: 200, kind: ReminderKind.streak, at: DateTime(2026, 10, 3, 20), workoutName: null);
+      expect(reminderMessage(l10n, streak, streak: 12).$2, contains('12'));
     });
   });
 }

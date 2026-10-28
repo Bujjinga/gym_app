@@ -44,7 +44,7 @@ final class CardioTrackerProvider
   }
 }
 
-String _$cardioTrackerHash() => r'80a9444dfefd939930696d4fef2338f491c247af';
+String _$cardioTrackerHash() => r'82600482a9fdc5719e78e2111f9c83c3afdf10c3';
 
 /// Live GPS (outdoor) or step-based (indoor) cardio tracking. Phones only.
 

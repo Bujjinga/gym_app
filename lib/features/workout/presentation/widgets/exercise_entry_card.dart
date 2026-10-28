@@ -50,89 +50,92 @@ class ExerciseEntryCard extends ConsumerWidget {
       child: GlassCard(
         blur: false,
         padding: EdgeInsets.zero,
-        child: IntrinsicHeight(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              // Superset marker: a coloured bar shared by grouped entries.
-              if (entry.supersetGroup != null)
-                Container(width: 4, color: c.zones[(entry.supersetGroup! - 1) % c.zones.length]),
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(PulseMetrics.space16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
+        // Stack, not IntrinsicHeight: set rows contain a LayoutBuilder, which can't report intrinsic sizes.
+        child: Stack(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(PulseMetrics.space16)
+                  .copyWith(left: PulseMetrics.space16 + (entry.supersetGroup == null ? 0 : 4)),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Row(
                     children: [
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(exercise?.name ?? '…', style: text.titleMedium),
-                                if (exercise != null)
-                                  Text(
-                                    [
-                                      l10n.muscle(exercise!.primaryMuscle),
-                                      if (entry.supersetGroup != null) l10n.superset,
-                                    ].join(' · '),
-                                    style: text.bodySmall,
-                                  ),
-                              ],
-                            ),
-                          ),
-                          _EntryMenu(entry: entry, isLast: isLast),
-                        ],
-                      ),
-                      if (best != null)
-                        Padding(
-                          padding: const EdgeInsets.only(top: PulseMetrics.space4),
-                          child: Text(
-                            l10n.lastTime(Fmt.set(best.weightKg, best.reps, unit)),
-                            style: text.labelMedium?.copyWith(color: c.accentEnd),
-                          ),
-                        ),
-                      if (entry.notes != null)
-                        Padding(
-                          padding: const EdgeInsets.only(top: PulseMetrics.space4),
-                          child: Text(entry.notes!, style: text.bodySmall?.copyWith(fontStyle: FontStyle.italic)),
-                        ),
-                      const SizedBox(height: PulseMetrics.space12),
-                      DefaultTextStyle(
-                        style: text.labelSmall!,
-                        child: Row(
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const SizedBox(width: 44, child: Text('#')),
-                            Expanded(child: Text(l10n.weightUnitName(unit))),
-                            Expanded(child: Text(l10n.reps)),
-                            SizedBox(width: 56, child: Text(l10n.rpe)),
-                            const SizedBox(width: 44),
+                            Text(exercise?.name ?? '…', style: text.titleMedium),
+                            if (exercise != null)
+                              Text(
+                                [
+                                  l10n.muscle(exercise!.primaryMuscle),
+                                  if (entry.supersetGroup != null) l10n.superset,
+                                ].join(' · '),
+                                style: text.bodySmall,
+                              ),
                           ],
                         ),
                       ),
-                      for (final (i, set) in entry.sets.indexed)
-                        _SetRow(
-                          key: ValueKey(set.id),
-                          entryId: entry.id,
-                          set: set,
-                          number: i + 1,
-                          unit: unit,
-                          swipe: swipeToComplete && !manual,
-                        ),
-                      Align(
-                        alignment: Alignment.centerLeft,
-                        child: TextButton.icon(
-                          onPressed: () => ref.read(activeWorkoutProvider.notifier).addSet(entry.id),
-                          icon: const Icon(Icons.add_rounded),
-                          label: Text(l10n.addSet),
-                        ),
-                      ),
+                      _EntryMenu(entry: entry, isLast: isLast),
                     ],
                   ),
-                ),
+                  if (best != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: PulseMetrics.space4),
+                      child: Text(
+                        l10n.lastTime(Fmt.set(best.weightKg, best.reps, unit)),
+                        style: text.labelMedium?.copyWith(color: c.accentEnd),
+                      ),
+                    ),
+                  if (entry.notes != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: PulseMetrics.space4),
+                      child: Text(entry.notes!, style: text.bodySmall?.copyWith(fontStyle: FontStyle.italic)),
+                    ),
+                  const SizedBox(height: PulseMetrics.space12),
+                  DefaultTextStyle(
+                    style: text.labelSmall!,
+                    child: Row(
+                      children: [
+                        const SizedBox(width: 44, child: Text('#')),
+                        Expanded(child: Text(l10n.weightUnitName(unit))),
+                        Expanded(child: Text(l10n.reps)),
+                        SizedBox(width: 56, child: Text(l10n.rpe)),
+                        const SizedBox(width: 44),
+                      ],
+                    ),
+                  ),
+                  for (final (i, set) in entry.sets.indexed)
+                    _SetRow(
+                      key: ValueKey(set.id),
+                      entryId: entry.id,
+                      set: set,
+                      number: i + 1,
+                      unit: unit,
+                      swipe: swipeToComplete && !manual,
+                    ),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: TextButton.icon(
+                      onPressed: () => ref.read(activeWorkoutProvider.notifier).addSet(entry.id),
+                      icon: const Icon(Icons.add_rounded),
+                      label: Text(l10n.addSet),
+                    ),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+            // Superset marker: a coloured bar shared by grouped entries.
+            if (entry.supersetGroup != null)
+              Positioned(
+                left: 0,
+                top: 0,
+                bottom: 0,
+                width: 4,
+                child: ColoredBox(color: c.zones[(entry.supersetGroup! - 1) % c.zones.length]),
+              ),
+          ],
         ),
       ),
     );
@@ -219,8 +222,9 @@ class _SetRow extends ConsumerStatefulWidget {
 }
 
 class _SetRowState extends ConsumerState<_SetRow> {
-  late final _weight =
-      TextEditingController(text: widget.set.weightKg == null ? '' : Fmt.weightValue(widget.set.weightKg!, widget.unit));
+  late final _weight = TextEditingController(
+    text: widget.set.weightKg == null ? '' : Fmt.weightValue(widget.set.weightKg!, widget.unit),
+  );
   late final _reps = TextEditingController(text: widget.set.reps?.toString() ?? '');
   late final _rpe = TextEditingController(text: widget.set.rpe == null ? '' : Fmt.number(widget.set.rpe!));
 
@@ -278,8 +282,10 @@ class _SetRowState extends ConsumerState<_SetRow> {
                 PopupMenuItem(value: 'delete', child: Text(l10n.delete)),
               ],
               child: Center(
-                child: Text(typeLabel,
-                    style: numberStyle.copyWith(color: s.type == SetType.working ? c.textSecondary : c.warning)),
+                child: Text(
+                  typeLabel,
+                  style: numberStyle.copyWith(color: s.type == SetType.working ? c.textSecondary : c.warning),
+                ),
               ),
             ),
           ),

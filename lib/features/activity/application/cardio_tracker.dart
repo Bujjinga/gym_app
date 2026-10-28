@@ -65,6 +65,7 @@ class CardioTracker extends _$CardioTracker {
   DistanceUnit _unit = DistanceUnit.km;
   SplitPhrase? _phrase;
   final _tts = FlutterTts();
+  bool _starting = false;
 
   @override
   TrackingState? build() {
@@ -80,7 +81,23 @@ class CardioTracker extends _$CardioTracker {
     required String notificationText,
     required SplitPhrase phrase,
   }) async {
-    if (state != null) return true;
+    if (state != null || _starting) return true;
+    _starting = true; // a second tap while permission/profile load must not start a second tracker
+    try {
+      return await _start(type,
+          indoor: indoor, notificationTitle: notificationTitle, notificationText: notificationText, phrase: phrase);
+    } finally {
+      _starting = false;
+    }
+  }
+
+  Future<bool> _start(
+    CardioType type, {
+    required bool indoor,
+    required String notificationTitle,
+    required String notificationText,
+    required SplitPhrase phrase,
+  }) async {
     if (!indoor) {
       var permission = await Geolocator.checkPermission();
       if (permission == LocationPermission.denied) permission = await Geolocator.requestPermission();

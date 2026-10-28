@@ -39,7 +39,7 @@ final class ActiveWorkoutProvider
   ActiveWorkout create() => ActiveWorkout();
 }
 
-String _$activeWorkoutHash() => r'830e932c0e9dc454c997c3f43e45c55c149d7f0a';
+String _$activeWorkoutHash() => r'47654eac3d3e649ae3814376df0da8c532a22d6a';
 
 /// The workout in progress (null when none). Live sessions are saved to the
 /// database continuously, so they survive backgrounding and app restarts.

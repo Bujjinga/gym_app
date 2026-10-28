@@ -4,6 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/design_system/design_system.dart';
 import '../../../core/design_system/widgets/tab_page.dart';
 import '../../../l10n/gen/app_localizations.dart';
+import '../../../l10n/greeting.dart';
+import '../../health/data/health_sync_service.dart';
 import '../../profile/data/drift_profile_repository.dart';
 import '../application/home_providers.dart';
 import '../domain/dashboard_layout.dart';
@@ -32,12 +34,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     await repo.save((await repo.get()).copyWith(dashboardCards: layout.toStored()));
   }
 
-  String _greeting(AppLocalizations l10n) {
-    final h = DateTime.now().hour;
-    final g = h < 12 ? l10n.greetingMorning : (h < 18 ? l10n.greetingAfternoon : l10n.greetingEvening);
-    final name = ref.watch(userProfileProvider).value?.displayName;
-    return name == null || name.isEmpty ? g : l10n.greetingWithName(g, name);
-  }
+  String _greeting(AppLocalizations l10n) => l10n.greeting(ref.watch(userProfileProvider).value?.displayName);
 
   static Widget _card(DashboardCard card) => switch (card) {
         DashboardCard.rings => const RingsCard(),
@@ -126,6 +123,15 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       );
     }
 
-    return Scaffold(backgroundColor: Colors.transparent, body: MeshGradientBackground(child: body));
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      body: MeshGradientBackground(
+        child: PulseRefresh(
+          semanticLabel: l10n.refreshing,
+          onRefresh: () => ref.read(healthSyncProvider).syncRecentDays(),
+          child: body,
+        ),
+      ),
+    );
   }
 }

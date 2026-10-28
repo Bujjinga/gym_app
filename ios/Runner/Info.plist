@@ -28,6 +28,8 @@
 		<true/>
 		<key>NSCameraUsageDescription</key>
 		<string>PULSE uses the camera to take private progress photos.</string>
+		<key>NSFaceIDUsageDescription</key>
+		<string>PULSE uses Face ID to unlock the app and keep your training data private.</string>
 		<key>NSHealthShareUsageDescription</key>
 		<string>PULSE reads your steps, heart rate, sleep and workouts to fill your activity rings and recovery score.</string>
 		<key>NSHealthUpdateUsageDescription</key>

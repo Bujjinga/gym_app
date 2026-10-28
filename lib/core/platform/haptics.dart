@@ -38,6 +38,11 @@ abstract final class Haptics {
     }
   }
 
+  /// Heavy single thump (splash heartbeat).
+  static Future<void> thump() async {
+    if (_on) await HapticFeedback.heavyImpact();
+  }
+
   static Future<void> warning() async {
     if (_on) await HapticFeedback.heavyImpact();
   }

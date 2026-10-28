@@ -72,6 +72,7 @@ dependencies:
   quick_actions: ^1.1.1
   screen_retriever: ^0.2.2
   timezone: ^0.11.2
+  local_auth: ^3.0.2
 
 dev_dependencies:
   flutter_test:

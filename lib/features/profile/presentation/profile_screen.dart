@@ -7,9 +7,10 @@ import '../../../app/theme_mode_controller.dart';
 import '../../../core/design_system/design_system.dart';
 import '../../../core/design_system/widgets/tab_page.dart';
 import '../../../l10n/gen/app_localizations.dart';
+import 'app_lock_section.dart';
 import 'reminders_section.dart';
 
-/// Profile tab: appearance, reminders and (debug builds) the component gallery.
+/// Profile tab: appearance, reminders, app lock and (debug builds) the component gallery.
 class ProfileScreen extends ConsumerWidget {
   const ProfileScreen({super.key});
 
@@ -36,6 +37,7 @@ class ProfileScreen extends ConsumerWidget {
             ),
           ),
           const RemindersSection(),
+          const AppLockSection(),
           // The gallery uses mock data, so it's only reachable in debug builds.
           if (kDebugMode) ...[
             SectionHeader(title: l10n.developer),

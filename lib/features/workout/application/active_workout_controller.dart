@@ -35,6 +35,7 @@ typedef FinishResult = ({String sessionId, List<PersonalRecord> records, List<St
 class ActiveWorkout extends _$ActiveWorkout {
   Timer? _debounce;
   AppLifecycleListener? _lifecycle;
+  bool _starting = false;
 
   /// MET for general resistance training (Compendium code 02054).
   static const _strengthMet = 5.0;
@@ -55,7 +56,7 @@ class ActiveWorkout extends _$ActiveWorkout {
 
   // ---- Starting ------------------------------------------------------------
 
-  Future<void> startEmpty({required String name, bool manual = false}) => _start(
+  Future<void> startEmpty({required String name, bool manual = false}) => _guardStart(() => _start(
         WorkoutSession(
           id: newId(),
           name: name,
@@ -63,13 +64,24 @@ class ActiveWorkout extends _$ActiveWorkout {
           source: manual ? WorkoutSource.manual : WorkoutSource.live,
         ),
         manual: manual,
-      );
+      ));
+
+  /// Ignores a start while a workout is running or already starting (double taps).
+  Future<void> _guardStart(Future<void> Function() start) async {
+    if (_starting || _current != null) return;
+    _starting = true;
+    try {
+      await start();
+    } finally {
+      _starting = false;
+    }
+  }
 
   Future<void> startFromPlanDay(PlanDay day, {bool manual = false}) =>
-      _startPlanned(day.name, day.exercises, planDayId: day.id, manual: manual);
+      _guardStart(() => _startPlanned(day.name, day.exercises, planDayId: day.id, manual: manual));
 
   Future<void> startFromTemplate(WorkoutTemplate template, {bool manual = false}) =>
-      _startPlanned(template.name, template.exercises, templateId: template.id, manual: manual);
+      _guardStart(() => _startPlanned(template.name, template.exercises, templateId: template.id, manual: manual));
 
   Future<void> _startPlanned(
     String name,
@@ -166,14 +178,15 @@ class ActiveWorkout extends _$ActiveWorkout {
         ),
     ];
     final next = await _hydrate(s.copyWith(session: s.session.copyWith(entries: [...s.session.entries, ...added])));
-    // Pre-fill the first set from last time.
+    // Pre-fill from last time's working sets; keep the one empty set if there were none.
+    List<SetEntry> working(String exerciseId) =>
+        (next.lastTime[exerciseId] ?? const <SetEntry>[]).where((x) => x.type != SetType.warmup).toList();
     _set(next.copyWith(
       session: next.session.copyWith(entries: [
         for (final e in next.session.entries)
-          if (added.any((a) => a.id == e.id) && (next.lastTime[e.exerciseId]?.isNotEmpty ?? false))
+          if (added.any((a) => a.id == e.id) && working(e.exerciseId).isNotEmpty)
             e.copyWith(sets: [
-              for (final last in next.lastTime[e.exerciseId]!.where((x) => x.type != SetType.warmup))
-                SetEntry(id: newId(), weightKg: last.weightKg, reps: last.reps),
+              for (final last in working(e.exerciseId)) SetEntry(id: newId(), weightKg: last.weightKg, reps: last.reps),
             ])
           else
             e,

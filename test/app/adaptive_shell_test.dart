@@ -29,7 +29,8 @@ Future<void> _pumpAt(WidgetTester tester, Size size) async {
   // The Home mesh background animates forever, so pump frames instead of settling.
   // Past the staggered card entrances (≤ ~1.2 s); pump, not settle (Home animates forever).
   // Cards mount as data arrives, each starting its own entry delay, so pump a few rounds.
-  for (var i = 0; i < 5; i++) {
+  // Also past the splash intro (≈ 4 s).
+  for (var i = 0; i < 6; i++) {
     await tester.pump(const Duration(seconds: 1));
   }
 }

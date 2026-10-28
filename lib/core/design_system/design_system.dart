@@ -26,6 +26,8 @@ export 'widgets/glass_card.dart';
 export 'widgets/heart_rate_pulse.dart';
 export 'widgets/muscle_map.dart';
 export 'widgets/primary_button.dart';
+export 'widgets/pulse_logo.dart';
+export 'widgets/pulse_refresh.dart';
 export 'widgets/pulse_bottom_nav.dart';
 export 'widgets/pulse_toast.dart';
 export 'widgets/rest_timer.dart';

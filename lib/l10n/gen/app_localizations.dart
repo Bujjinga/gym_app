@@ -2665,37 +2665,37 @@ abstract class AppLocalizations {
   /// No description provided for @reminderWorkoutTitle.
   ///
   /// In en, this message translates to:
-  /// **'Time to train'**
+  /// **'Get up. It\'s time.'**
   String get reminderWorkoutTitle;
 
   /// No description provided for @reminderWorkoutBody.
   ///
   /// In en, this message translates to:
-  /// **'{name} is on today\'s plan.'**
+  /// **'{name} is on the plan. The weights aren\'t lifting themselves.'**
   String reminderWorkoutBody(String name);
 
   /// No description provided for @reminderStreakTitle.
   ///
   /// In en, this message translates to:
-  /// **'Keep your streak alive'**
+  /// **'Don\'t you dare break it'**
   String get reminderStreakTitle;
 
   /// No description provided for @reminderStreakBody.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, =1{1 day so far} other{{count} days so far}}. A short walk still counts.'**
+  /// **'{count, plural, =1{1 day strong} other{{count} days strong}}. Ten minutes of walking keeps it alive.'**
   String reminderStreakBody(int count);
 
   /// No description provided for @reminderInactiveTitle.
   ///
   /// In en, this message translates to:
-  /// **'Ready when you are'**
+  /// **'Where have you been?'**
   String get reminderInactiveTitle;
 
   /// No description provided for @reminderInactiveBody.
   ///
   /// In en, this message translates to:
-  /// **'It\'s been a few days. Even a 20-minute session keeps the habit going.'**
+  /// **'Three days off. Time to get it together and go train.'**
   String get reminderInactiveBody;
 
   /// No description provided for @goalReachedTitle.
@@ -2769,6 +2769,186 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Notifications are turned off for PULSE. Turn them on in system settings.'**
   String get remindersDenied;
+
+  /// No description provided for @reminderWorkoutTitle2.
+  ///
+  /// In en, this message translates to:
+  /// **'No excuses today'**
+  String get reminderWorkoutTitle2;
+
+  /// No description provided for @reminderWorkoutBody2.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} is waiting. Show up for yourself.'**
+  String reminderWorkoutBody2(String name);
+
+  /// No description provided for @reminderWorkoutTitle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Clock in'**
+  String get reminderWorkoutTitle3;
+
+  /// No description provided for @reminderWorkoutBody3.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} today. Future you is watching.'**
+  String reminderWorkoutBody3(String name);
+
+  /// No description provided for @reminderStreakTitle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Your streak is on the line'**
+  String get reminderStreakTitle2;
+
+  /// No description provided for @reminderStreakBody2.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 day} other{{count} days}} of work. Don\'t throw it away tonight.'**
+  String reminderStreakBody2(int count);
+
+  /// No description provided for @reminderStreakTitle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Still nothing today?'**
+  String get reminderStreakTitle3;
+
+  /// No description provided for @reminderStreakBody3.
+  ///
+  /// In en, this message translates to:
+  /// **'Protect the {count, plural, =1{1-day} other{{count}-day}} streak. Move. Now.'**
+  String reminderStreakBody3(int count);
+
+  /// No description provided for @reminderInactiveTitle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Excuses don\'t build muscle'**
+  String get reminderInactiveTitle2;
+
+  /// No description provided for @reminderInactiveBody2.
+  ///
+  /// In en, this message translates to:
+  /// **'Your gym bag misses you. Twenty minutes. Go.'**
+  String get reminderInactiveBody2;
+
+  /// No description provided for @reminderInactiveTitle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Comfort zone detected'**
+  String get reminderInactiveTitle3;
+
+  /// No description provided for @reminderInactiveBody3.
+  ///
+  /// In en, this message translates to:
+  /// **'Nobody is coming to motivate you. Get up and get it done.'**
+  String get reminderInactiveBody3;
+
+  /// No description provided for @refreshing.
+  ///
+  /// In en, this message translates to:
+  /// **'Refreshing'**
+  String get refreshing;
+
+  /// No description provided for @appLockTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'App lock'**
+  String get appLockTitle;
+
+  /// No description provided for @appLockBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask for Face ID, fingerprint or your PIN when PULSE opens.'**
+  String get appLockBody;
+
+  /// No description provided for @appLockBiometric.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock with Face ID or fingerprint'**
+  String get appLockBiometric;
+
+  /// No description provided for @appLockChangePin.
+  ///
+  /// In en, this message translates to:
+  /// **'Change PIN'**
+  String get appLockChangePin;
+
+  /// No description provided for @appLockOn.
+  ///
+  /// In en, this message translates to:
+  /// **'App lock is on'**
+  String get appLockOn;
+
+  /// No description provided for @lockTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'PULSE is locked'**
+  String get lockTitle;
+
+  /// No description provided for @lockReason.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock PULSE'**
+  String get lockReason;
+
+  /// No description provided for @lockEnterPin.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your PIN'**
+  String get lockEnterPin;
+
+  /// No description provided for @lockWrongPin.
+  ///
+  /// In en, this message translates to:
+  /// **'Wrong PIN'**
+  String get lockWrongPin;
+
+  /// No description provided for @lockTooMany.
+  ///
+  /// In en, this message translates to:
+  /// **'Too many tries. Try again in {seconds} s.'**
+  String lockTooMany(int seconds);
+
+  /// No description provided for @lockUseBiometric.
+  ///
+  /// In en, this message translates to:
+  /// **'Use Face ID or fingerprint'**
+  String get lockUseBiometric;
+
+  /// No description provided for @keypadDelete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get keypadDelete;
+
+  /// No description provided for @pinCreate.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a 4-digit PIN'**
+  String get pinCreate;
+
+  /// No description provided for @pinConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter it again'**
+  String get pinConfirm;
+
+  /// No description provided for @pinMismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'PINs didn\'t match. Start over.'**
+  String get pinMismatch;
+
+  /// No description provided for @pinCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your current PIN'**
+  String get pinCurrent;
+
+  /// No description provided for @pinProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'{entered} of {total} digits entered'**
+  String pinProgress(int entered, int total);
 }
 
 class _AppLocalizationsDelegate

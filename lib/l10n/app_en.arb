@@ -669,8 +669,8 @@
   "tipLoadSpike": "You trained much more this week than usual. Ease off to avoid injury.",
   "tipDeload": "Five hard weeks in a row. Plan a lighter deload week to keep progressing.",
   "tipConnectHealth": "Connect Apple Health or Health Connect to get a recovery score from your sleep and heart rate.",
-  "reminderWorkoutTitle": "Time to train",
-  "reminderWorkoutBody": "{name} is on today's plan.",
+  "reminderWorkoutTitle": "Get up. It's time.",
+  "reminderWorkoutBody": "{name} is on the plan. The weights aren't lifting themselves.",
   "@reminderWorkoutBody": {
     "placeholders": {
       "name": {
@@ -678,8 +678,8 @@
       }
     }
   },
-  "reminderStreakTitle": "Keep your streak alive",
-  "reminderStreakBody": "{count, plural, =1{1 day so far} other{{count} days so far}}. A short walk still counts.",
+  "reminderStreakTitle": "Don't you dare break it",
+  "reminderStreakBody": "{count, plural, =1{1 day strong} other{{count} days strong}}. Ten minutes of walking keeps it alive.",
   "@reminderStreakBody": {
     "placeholders": {
       "count": {
@@ -687,8 +687,8 @@
       }
     }
   },
-  "reminderInactiveTitle": "Ready when you are",
-  "reminderInactiveBody": "It's been a few days. Even a 20-minute session keeps the habit going.",
+  "reminderInactiveTitle": "Where have you been?",
+  "reminderInactiveBody": "Three days off. Time to get it together and go train.",
   "goalReachedTitle": "Step goal reached!",
   "goalReachedBody": "{goal} steps today. Nice work.",
   "@goalReachedBody": {
@@ -717,5 +717,80 @@
   "remindersTitle": "Reminders",
   "remindersBody": "Workout reminders, streak protection, step goal reached and a nudge after a few quiet days.",
   "reminderTime": "Reminder time",
-  "remindersDenied": "Notifications are turned off for PULSE. Turn them on in system settings."
+  "remindersDenied": "Notifications are turned off for PULSE. Turn them on in system settings.",
+  "reminderWorkoutTitle2": "No excuses today",
+  "reminderWorkoutBody2": "{name} is waiting. Show up for yourself.",
+  "@reminderWorkoutBody2": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderWorkoutTitle3": "Clock in",
+  "reminderWorkoutBody3": "{name} today. Future you is watching.",
+  "@reminderWorkoutBody3": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderStreakTitle2": "Your streak is on the line",
+  "reminderStreakBody2": "{count, plural, =1{1 day} other{{count} days}} of work. Don't throw it away tonight.",
+  "@reminderStreakBody2": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reminderStreakTitle3": "Still nothing today?",
+  "reminderStreakBody3": "Protect the {count, plural, =1{1-day} other{{count}-day}} streak. Move. Now.",
+  "@reminderStreakBody3": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reminderInactiveTitle2": "Excuses don't build muscle",
+  "reminderInactiveBody2": "Your gym bag misses you. Twenty minutes. Go.",
+  "reminderInactiveTitle3": "Comfort zone detected",
+  "reminderInactiveBody3": "Nobody is coming to motivate you. Get up and get it done.",
+  "refreshing": "Refreshing",
+  "appLockTitle": "App lock",
+  "appLockBody": "Ask for Face ID, fingerprint or your PIN when PULSE opens.",
+  "appLockBiometric": "Unlock with Face ID or fingerprint",
+  "appLockChangePin": "Change PIN",
+  "appLockOn": "App lock is on",
+  "lockTitle": "PULSE is locked",
+  "lockReason": "Unlock PULSE",
+  "lockEnterPin": "Enter your PIN",
+  "lockWrongPin": "Wrong PIN",
+  "lockTooMany": "Too many tries. Try again in {seconds} s.",
+  "@lockTooMany": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lockUseBiometric": "Use Face ID or fingerprint",
+  "keypadDelete": "Delete",
+  "pinCreate": "Choose a 4-digit PIN",
+  "pinConfirm": "Enter it again",
+  "pinMismatch": "PINs didn't match. Start over.",
+  "pinCurrent": "Enter your current PIN",
+  "pinProgress": "{entered} of {total} digits entered",
+  "@pinProgress": {
+    "placeholders": {
+      "entered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  }
 }

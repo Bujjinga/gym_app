@@ -15,7 +15,8 @@ class ActivityDao extends DatabaseAccessor<AppDatabase> with _$ActivityDaoMixin 
   // ---- Cardio sessions -----------------------------------------------------
 
   Stream<List<CardioSessionRow>> watchCardio({DateTime? from, DateTime? to}) {
-    final q = select(cardioSessions)..where((t) => t.deleted.equals(false));
+    // Unfinished sessions (still tracking, or abandoned by a crash) aren't history.
+    final q = select(cardioSessions)..where((t) => t.deleted.equals(false) & t.endedAt.isNotNull());
     if (from != null) q.where((t) => t.startedAt.isBiggerOrEqualValue(from.toUtc()));
     if (to != null) q.where((t) => t.startedAt.isSmallerThanValue(to.toUtc()));
     q.orderBy([(t) => OrderingTerm.desc(t.startedAt)]);
